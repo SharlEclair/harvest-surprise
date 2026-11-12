@@ -1,0 +1,11 @@
+candidate SAR scenes (1 in 4): 84
+  0/84 2018-01-08 n=416
+  25/84 2019-11-05 n=416
+  50/84 2021-08-20 n=416
+  75/84 2024-10-27 n=416
+
+wrote data\processed\cushing_sar.csv (84 scenes)
+      date  tank_db  ground_db  ratio_db     orbit
+2025-07-30 1.614185 -10.933389 12.547573 ascending
+2025-09-28 1.672154 -11.299745 12.971899 ascending
+2025-11-15 1.068657 -11.636600 12.705256 ascending

@@ -1,0 +1,79 @@
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+analysis\reservoir_area.py:110: RuntimeWarning: invalid value encountered in divide
+  ndwi = (green - nir) / (green + nir)
+Traceback (most recent call last):
+  File "analysis\reservoir_area.py", line 195, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "analysis\reservoir_area.py", line 146, in main
+    j = sc.merge(cdec[["date", "reservoir", "elevation_ft", "storage_af"]],
+                 on=["date", "reservoir"], how="inner")
+  File ".venv-scratch\Lib\site-packages\pandas\core\frame.py", line 16192, in merge
+    return merge(
+        self,
+    ...<10 lines>...
+        validate=validate,
+    )
+  File ".venv-scratch\Lib\site-packages\pandas\core\reshape\merge.py", line 391, in merge
+    op = _MergeOperation(
+        left_df,
+    ...<10 lines>...
+        validate=validate,
+    )
+  File ".venv-scratch\Lib\site-packages\pandas\core\reshape\merge.py", line 1027, in __init__
+    self._maybe_coerce_merge_keys()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File ".venv-scratch\Lib\site-packages\pandas\core\reshape\merge.py", line 1854, in _maybe_coerce_merge_keys
+    raise ValueError(msg)
+ValueError: You are trying to merge on datetime64[us, UTC] and datetime64[us] columns for key 'date'. If you wish to proceed you should use pd.concat

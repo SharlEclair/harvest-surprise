@@ -1,0 +1,357 @@
+[    0.0] Hedge funds count cars from orbit to
+[    2.1] predict company earnings before they're
+[    4.0] announced. More cars in Walmart's
+[    6.0] parking lot than last year and you could
+[    7.5] probably guess the profits are up. And
+[    9.2] I've always wondered, why can't I do
+[   11.0] that? So, I did with free satellite
+[   13.0] imagery to beat the market and pay off
+[   14.8] my damn student loans. How am I
+[   16.5] qualified to do this? Well, this is
+[   18.7] actually a rare instance where my
+[   20.1] background as a physics PhD collides
+[   21.9] with finance. And I do have some
+[   23.8] tangential experience with satellites
+[   25.7] and optical [music] designs. Anyways, I
+[   27.4] mean the real question is how are you
+[   28.6] going to get access to satellite
+[   30.2] imagery? Well, meet Sentinel 2, which is
+[   32.6] the European Space Agency's free Earth
+[   34.6] imaging mission. Anybody can download
+[   36.4] this and it's completely [music] free.
+[   37.9] Sentinel 2 carries 13 bands, visible,
+[   41.1] infrared, and then [music] a bunch more,
+[   42.7] and it revisits the same spot every 5
+[   44.7] days. The highest resolution band can
+[   46.8] see 10 m per pixel, which is actually uh
+[   50.1] terrible. That's That's terrible. Okay,
+[   52.5] well, this is going to be your first
+[   53.8] main problem. If a car is 10 m long, it
+[   56.6] would simply show up as a pixel. But,
+[   58.9] cars are obviously not 10 m long.
+[   60.8] They're actually not even visible on
+[   62.3] Sentinel 2. And I know what you're
+[   63.5] thinking. Cars are visible on Google
+[   65.1] Maps, so why not just use that? Well,
+[   67.0] the problem with Google Maps is that it
+[   68.5] doesn't refresh on a schedule and parts
+[   70.3] of the satellite images are actually
+[   72.0] stitched together from different dates.
+[   73.8] So, there's no way to compare them over
+[   75.4] the long term and view changes month to
+[   77.7] month. So, how will we get around this
+[   79.4] problem? Also, if you want access to the
+[   81.4] project yourself, I'm going to drop a
+[   82.9] GitHub repository link below in the
+[   84.8] description and you can get access upon
+[   86.6] becoming a GitHub sponsor and your
+[   88.6] support can be funneled back into this
+[   90.2] growing project for the future. Now, to
+[   92.5] get around this problem, quite frankly,
+[   94.1] we need to look at something bigger than
+[   95.6] cars or raise hundreds of thousands of
+[   97.7] dollars to build our own satellite and
+[   99.4] launch it into space to get our own damn
+[  101.1] images. I mean, joking aside, this is a
+[  103.3] serious issue for the project. So, allow
+[  105.4] me to introduce Cushing, Oklahoma, the
+[  107.8] delivery point and physical origin of
+[  109.9] WTI crude. There are over 300 oil tanks
+[  112.7] [music] there and they're easily visible
+[  114.2] from space. This is going to be the
+[  116.2] starting point for a larger project I
+[  118.0] have in mind, but it proves the concept
+[  120.0] just the same. If we can apply this
+[  121.6] satellite imaging concept to crude oil
+[  123.4] tanks, we can apply it to cars or other
+[  125.9] things once we have access or money to
+[  128.6] this data. And it turns out that these
+[  130.4] tanks give away exactly how much oil is
+[  132.3] inside of them if you know what you're
+[  134.6] looking for. Okay, bear with me on this
+[  136.4] one, boys. Crude oil tanks have an
+[  138.0] interesting characteristic that I've
+[  139.5] just recently realized will allow us to
+[  141.4] measure their fill levels from space,
+[  143.9] and it's pretty darn cool. In case you
+[  145.4] don't know, a crude oil tank actually
+[  147.2] has no fixed lid. The roof floats on top
+[  150.0] of the surface of the oil, riding up and
+[  152.2] down as the tank empties and fills,
+[  154.1] which means the height of that roof is
+[  156.5] the fill level. Furthermore, the dark
+[  158.1] crescent shapes you see are actually the
+[  159.8] shadows of the walls of this tank
+[  161.8] [music] down onto the roof as it
+[  163.6] empties. The darker and larger these
+[  165.5] crescent shapes are, the less oil is
+[  167.5] present in the tank. Also, these tanks
+[  169.6] are absolutely huge, about 61 m wide,
+[  173.0] and with a 10-m resolution, we should be
+[  174.9] able to resolve them with about six
+[  176.6] pixels. So, here's my idea. I'm going to
+[  178.8] use the intensity of the shadows that
+[  180.4] develop on these crude oil tanks to
+[  182.5] estimate their fill levels and predict
+[  184.2] the value of WTI stock prices based on
+[  187.1] simple supply and demand. And
+[  189.0] theoretically, this becomes our trading
+[  190.6] signal. Now, the biggest issue with this
+[  192.1] by far is that these small shadows are
+[  194.4] also not visible with a 10-m resolution,
+[  197.1] which means we need to talk about
+[  198.6] subpixel darkening. Thankfully, it's
+[  200.4] rather straightforward. Simply put, as
+[  202.4] the shadow is increasing in length, the
+[  204.0] first pixel starts to darken up to the
+[  205.8] point where the shadow is now long
+[  207.3] enough and starts to darken the next
+[  208.9] pixel. [music] So, what we could do is
+[  210.6] look at the average pixel brightness
+[  212.5] over the entire roof to determine the
+[  214.5] fill level. This is a full tank, [music]
+[  216.4] and here's the same tank but nearly
+[  218.2] empty, and you can tell based on the
+[  219.6] crescent-shaped shadow. One problem we
+[  221.4] will encounter is that these shadows
+[  223.1] will change depending on the orientation
+[  225.0] of the sun. That's pretty obvious. For
+[  227.6] instance, if the sun is directly above
+[  229.4] the tank, we will not see any shadows,
+[  231.4] clearly, and can't tell how empty the
+[  233.4] tank is. I mean, it's pretty simple.
+[  234.6] Thankfully, Sentinel 2 does me a favor
+[  236.5] here. It is in a sun-synchronous orbit,
+[  239.2] so it passes overhead at the same local
+[  241.4] time on [music] every single orbit, so
+[  243.5] the shadows should remain consistent and
+[  245.8] only vary based on their fill up. So,
+[  247.5] the plan is simple. I'll take two
+[  249.1] pictures of the same place in Cushing,
+[  250.9] Oklahoma, one when the tanks are full,
+[  253.0] and then another when they're clearly
+[  254.3] depleted, and I'll average the
+[  256.0] brightness inside of every tank and use
+[  258.1] the average to estimate [music] the tank
+[  259.8] fill levels. I'll use two dates,
+[  261.8] November of 2020 and November of 2025,
+[  264.6] basically 5 years apart and, you know, a
+[  266.7] time period where there's clearly some
+[  268.0] differences between the two tanks.
+[  269.2] [music] I'll also define points on this
+[  270.8] map in X and Y coordinates, and then
+[  272.8] give a radius such that within this
+[  275.0] region represents the tank roof, and
+[  277.0] then just repeat it for every single
+[  278.5] tank I can find. Now, I'll just write
+[  280.3] the code to take in this data and
+[  281.8] actually compute the average brightness
+[  283.5] between these two images.
+[  284.9] >> [music]
+[  285.1] >> And the final answer is nothing, which
+[  287.8] is obviously false. The actual measured
+[  290.0] difference in brightness was -0.3%,
+[  292.9] basically zero, but clearly there is a
+[  295.1] difference between the full tank and
+[  296.7] empty tank. So, what did I do wrong?
+[  298.6] Well, looking at the tanks specifically,
+[  300.2] they did get darker by about 7 and 1/2
+[  302.5] brightness units between 2020 and 2025,
+[  305.5] but then I measured the ground around
+[  307.3] the tanks, [music] the roads, the dirt,
+[  309.2] and everything else that isn't the tank
+[  311.1] itself, and they also got darker by
+[  313.0] seven units, too. This difference
+[  314.8] between the images could be caused by
+[  316.8] haze or gain of the instrumentation
+[  318.8] degrading in time, which is just classic
+[  321.3] image processing. We need to find a way
+[  323.3] to make these two photos consistent with
+[  325.2] each other. Another issue that I can see
+[  327.0] here is that averaging the entire tank
+[  329.2] buries a shadow that only covers 1/3 of
+[  332.0] it, and that shadow is always falling on
+[  334.0] the same side of the tank. So, our
+[  335.8] measurement is being needlessly
+[  337.4] inaccurate. This effectively means that
+[  339.4] I can split the average across the
+[  341.1] entire circle down to just the average
+[  343.3] on one side, basically increasing our
+[  345.2] signal-to-noise ratio. And yes, I did a
+[  347.4] bunch of math to prove it to myself that
+[  349.3] the shadow actually will never go beyond
+[  351.2] one radius of the tank. So, we are
+[  353.2] totally okay to only be looking at one
+[  355.7] half side for this calculation. Anyways,
+[  358.4] now that this is incorporated, does this
+[  360.4] method of calculating the tank depth
+[  362.1] actually work? So, here's the final
+[  364.0] result you've all been waiting for. And
+[  365.9] out of the tanks that I did look at, I
+[  367.9] calculated in 2020, there were 43.7
+[  371.2] million barrels of oil and in 2025, 25.8
+[  375.1] million barrels. We care about the
+[  376.5] percent change here, which is minus 41%
+[  379.2] [music]
+[  379.9] and is significant and it makes sense
+[  382.2] based on what we're seeing in the
+[  383.2] images. But, the most important question
+[  385.1] is, is this correct and how does it
+[  387.2] compare to the Energy Information
+[  388.9] Administration data for oil at that
+[  391.4] time? [music] Thankfully, this data is
+[  393.1] publicly available for us to verify our
+[  394.9] test. And yes, I understand that we
+[  397.1] wrote a whole program to calculate
+[  398.8] something that is publicly available is
+[  400.5] a little bit strange, but the point of
+[  402.4] this is that we need it to be available
+[  404.2] to at least verify our tests and confirm
+[  406.9] that it actually works. And only then
+[  408.8] could we use it in applications where
+[  410.4] the data is not publicly available yet
+[  413.2] and [music] that is what theoretically
+[  414.9] gives us an unfair advantage in stock
+[  416.9] predictions. The actual results,
+[  418.7] straight from the horse's mouth, were
+[  421.0] 61.6 million barrels of oil in 2020 and
+[  424.6] 22.5 million barrels of oil in 2025 or a
+[  428.4] minus 63% change, which is pretty damn
+[  431.9] close to our calculations. So, I'm
+[  433.7] pretty fired up about that. And I know
+[  435.4] what you're thinking, that's a pretty
+[  436.2] big error and our predictions were off
+[  438.2] and you're correct. But, that is a very
+[  440.0] naive calculation that I've just done
+[  441.8] and there's a bunch of assumptions made.
+[  443.2] So, directionally, this works even if
+[  445.2] the magnitude is a little bit rough.
+[  446.9] But, does it make money, which is the
+[  449.0] whole point, remember? So, I'm
+[  450.8] downloading 15 images at different
+[  452.8] points in time to get a more
+[  454.4] statistically significant result rather
+[  456.5] than a one-off. And before we go down
+[  458.4] that path,
+[  459.2] >> [music]
+[  459.2] >> we need to ask a different question
+[  460.6] first, a very important question.
+[  462.7] Imagine we have access to a perfect
+[  464.7] satellite, one that reads every barrel
+[  466.8] and hands you a number days before the
+[  468.5] government publishes it. Basically, you
+[  470.4] were given the exact answer before it
+[  472.0] was public knowledge. Would that make
+[  474.3] money? Because if the answer is no, then
+[  476.6] my algorithm clearly won't. And I guess
+[  479.1] I probably should have asked this at the
+[  480.4] beginning. Whoops. And if it does, how
+[  482.6] big is the prize? So, I ran an
+[  484.4] idealistic back test on crude oil with
+[  486.8] perfect knowledge. And my rule is
+[  488.5] simple. Every Wednesday, the government
+[  490.2] publishes the Cushing number. If the
+[  492.2] tanks drain that week, we're going to
+[  493.8] buy crude because there's less supply,
+[  496.1] same demand, and ideally the price goes
+[  498.1] up. Now, out of 11 years of knowing that
+[  500.2] number in advance, it actually lost
+[  502.1] money. But, if you had bought crude and
+[  503.9] never touched it, you'd be up 96%, which
+[  506.7] kind of makes sense, right? Oil is
+[  508.9] global, and Cushing is just one town in
+[  510.8] Oklahoma, which actually made me realize
+[  513.4] we've been doing this wrong the entire
+[  515.0] time. Somebody owns those tanks.
+[  517.4] Enterprise Energy Transfer, Enbridge.
+[  519.6] They don't own the crude. They're
+[  521.1] basically the landlords that rent out
+[  522.8] these tanks. So, the right strategy is
+[  525.0] to trade the owners of these tanks, not
+[  527.6] crude oil. And to actually test that
+[  529.4] theory, I need years of price history
+[  531.2] for every one of these landlords. And
+[  533.1] building out the logic for estimating a
+[  534.8] tank's fill level from space imagery is
+[  536.8] a beast of a problem by itself. So, I
+[  538.8] wasn't really keen on making the
+[  540.3] financial data side of this hard, too.
+[  542.2] So, I just grabbed daily close prices
+[  544.0] for all five tickers going back 11 years
+[  546.4] through Massiv's data platform. And I
+[  548.4] have an affiliate link in the
+[  549.3] description if you want to go tinker
+[  550.7] with market data like this yourself. I
+[  552.5] actually think the right strategy here
+[  554.2] is to then just buy the tanks once they
+[  556.2] fill up. Pretty simple. Basically, just
+[  558.1] buying the landlord companies. And I'll
+[  559.8] use the same algorithm I did as before.
+[  561.9] Every Wednesday, the government
+[  563.1] publishes how much oil is in Cushing.
+[  564.9] So, when the tanks fill up, I'll buy the
+[  566.6] landlords, and when they drain, I'll
+[  568.3] sell. Over the past 11 years, that's
+[  570.8] about 600 trades each. So, here is
+[  573.2] Plains All American Pipeline stock. The
+[  575.3] share price actually fell about 50% over
+[  577.7] that [music] stretch, but trading it
+[  579.2] based on the tank signal returned 300%.
+[  582.6] But that means nothing by itself. So,
+[  584.3] I'm going to run the same strategy 2,000
+[  586.4] more times with a coin being flipped
+[  588.4] every single week to tell if I will buy
+[  590.8] or sell a particular company. Basically,
+[  593.0] it's just a [music] random guess. This
+[  594.4] is effectively what luck looks like.
+[  596.4] These faded lines you're seeing are
+[  598.0] randomly bought portfolios being
+[  599.5] back-tested. And how far our strategy is
+[  602.4] above these random portfolios will
+[  604.3] indicate [music] if our strategy
+[  605.7] actually works. And interestingly, ours
+[  607.9] beat about 99% of them. We can do this
+[  610.4] same analysis for every company. Above
+[  612.5] this line means that this strategy beat
+[  614.4] 95% of random portfolios. Incredibly,
+[  617.8] all five are clearing [music] it. And
+[  619.6] that last bar is just crude oil itself,
+[  621.5] which is my control. So, amazingly, with
+[  624.2] perfect knowledge, this strategy
+[  626.1] actually works. But, of course, I don't
+[  628.2] [music] have perfect knowledge. I have
+[  629.7] 15 photographs with pretty low
+[  631.6] resolution, which gives me eight windows
+[  633.9] to trade. [music]
+[  634.7] And unfortunately, three land in the
+[  636.4] same EIA week, so the public has already
+[  639.9] found out about these tank fill levels,
+[  641.8] which leaves me with five real tests.
+[  644.1] And based on my analysis, only one in
+[  646.1] five trades was actually profitable. And
+[  648.5] [music] even in the one I got right, I
+[  650.0] predicted a loss of 20 million barrels
+[  652.0] when they actually lost 890,000. The
+[  654.8] frustrating part is that I could have
+[  656.2] worked this out before placing a single
+[  658.4] trade. What moves these stocks is the
+[  660.4] weekly wobble of about 1.5 million
+[  662.7] barrels [music] of oil. But the
+[  663.9] uncertainty of my method is just way
+[  665.8] higher than that. So, does this make
+[  667.7] money? Honestly, no,
+[  669.4] >> [music]
+[  669.4] >> not yet. But there is a route to fix
+[  671.8] this, especially once I start exploring
+[  673.9] paid options, and you can bet [music]
+[  675.6] I'll be exploring that next. As usual,
+[  677.6] the code's up for GitHub supporters,
+[  679.5] link's in the description. And please
+[  681.2] leave a comment below with what you
+[  682.5] believe could improve this code. The
+[  684.1] channel is now over 50,000 subscribers,
+[  686.8] which is absolutely crazy. And we now
+[  688.8] have a massive audience of peer
+[  690.2] reviewers, so we should probably use our
+[  692.0] collective knowledge to improve this.
+[  694.0] And I'll see you guys in the next one.

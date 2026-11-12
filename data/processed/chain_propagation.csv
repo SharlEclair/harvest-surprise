@@ -1,0 +1,4 @@
+reservoir,n,median_abs_storage_err_pct,p90_abs_storage_err_pct,acreage_err_pct
+Don Pedro,35,7.9,28.6,3.2
+Oroville,38,3.6,49.2,1.5
+Shasta,38,5.2,46.7,2.1

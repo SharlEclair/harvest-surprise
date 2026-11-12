@@ -1,0 +1,14 @@
+# Dependencies for the test suite and the read-only API.
+# Deliberately excludes the heavy ingest stack (rasterio, planetary-computer,
+# pystac-client, duckdb, yfinance, beautifulsoup4) - those are only needed to
+# re-pull raw data, not to run the tests, and installing GDAL in CI costs minutes.
+pandas
+numpy
+scipy
+matplotlib
+scikit-learn
+pyarrow
+fastapi
+httpx
+h3
+pytest

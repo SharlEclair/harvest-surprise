@@ -1,0 +1,4 @@
+reservoir,n_scenes,n_usable,n_scored,roi_cells,elev_range_ft,rmse_linear_ft,rmse_isotonic_ft,baseline_rmse_ft,skill_linear,spearman,spearman_changes,n_changes,spearman_all_scenes,n_area_collapse_dropped
+Shasta,40,38,36,6247,176.6,25.3,26.8,50.8,0.5,0.886,0.711,35,0.705,2
+Oroville,40,38,37,3959,270.8,32.9,33.9,86.3,0.62,0.927,0.759,36,0.887,1
+Don Pedro,39,35,33,2481,98.7,24.9,22.0,29.2,0.15,0.661,0.238,32,0.535,2

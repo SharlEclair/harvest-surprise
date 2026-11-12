@@ -1,0 +1,680 @@
+--- [0] 2200 likes | @user-30dbd1 | id=Ugw0w36v5d2psH1rd9J4AaABAg
+Just know if this man stops uploading he has cracked the code.
+--- [1] 1400 likes | @user-2d9f75 | id=Ugy3JDYwtcequnDA5Dp4AaABAg
+Have you tried to just create your own satellites with better resolution and then send them to space?
+--- [2] 906 likes | @user-084f26 | id=UgzNH_ESVdIFyfQePYx4AaABAg
+Congrats. You combined your comp sci skills and physics skills to become a quant. You might even pass first round interviews!
+--- [3] 459 likes | @user-88ae0e | id=UgwxeZNGXhLystaKAgB4AaABAg
+I've heard of people using satellites in wheat futures and other agriculture commodities.
+--- [4] 237 likes | @user-55c1b3 | id=UgweHJVO9b2aiaIG2pt4AaABAg
+Try agricultural yields instead. You have satellite data, but it's fairly low resolution. That's not an issue at all when dealing with crops. Here the multispectral imaging is also a nice bonus. You'll probably want to set up a machine learning algo to help you out here. Focus on the Corn Belt and backtest against CBOT corn futures.
+--- [5] 201 likes | @user-539bb5 | id=UgwtzZ3K-dhO05sSsyZ4AaABAg
+Wait until you discover that a company’s stock price has very little to do with how profitable the underlying business actually is.
+--- [6] 157 likes | @user-6bb7ea | id=UgwzrLgyqP1dzskQDRJ4AaABAg
+Now this is one of those niche datapoints I was talking couple videos back, hell yeah.
+--- [7] 139 likes | @user-7abceb | id=UgzNuhx6A4OlDTHJtKR4AaABAg
+now Imagine what citadel is able to do with their own PRIVATE satalites
+--- [8] 117 likes | @user-9f6b99 | id=UgzynnTmSECtV0m0ntJ4AaABAg
+At 04:07 you mention sun-synchronous orbit and how therefore the shadows should only be affected by the tank oil level - Keep in mind that even at the same local time, the position of the sun in the sky will be changing with the seasons. The impact of this will be greater the farther from the equator that you are.
+--- [9] 89 likes | @user-4c2c0a | id=UgxdG3Wv1sDO8lG7k1N4AaABAg
+Idk if you talked about it but this method has been used by analysts for what I know at least a decade. They now probably have nearly live coverage of all oil tanks worldwide using private satellite data
+--- [10] 72 likes | @user-cf3587 | id=UgyWNzpbSOCz5pVfuHR4AaABAg
+I was actually doing this project but checking for oil ships as my signal...when they dock in different ports..its still on works though..good to see someone thinking the same...might as well check the dipository
+--- [11] 64 likes | @user-c87553 | id=UgwsCXXHLG-P87P9izd4AaABAg
+The shadows change throughout the year dude. Even at the same time
+--- [12] 61 likes | @user-475a4d | id=UgyqBFRX6m0m9tQxvz94AaABAg
+During summer, the sun rises higher into the sky, meaning the shadows are not as long vs. during the winter where the sun stays closer to the horizon. Did you think about that?
+--- [13] 55 likes | @user-e17a3c | id=UgwTTy805wYgBQiGESt4AaABAg
+Something tells me the best investment is selling courses and subscriptions 😂
+--- [14] 46 likes | @user-3bf911 | id=UgypSTgu9LtAlpGF4ol4AaABAg
+I believe the cars can be measured, as a group not individually. Here is my idea: You take the roof of the walmart's color and the color of the pavement on a holiday (no cars in the lot). this should give you the average color of both. Then in future days when there are cars in the parking lot you can take the average color of the parking lot and this should give you a baseline for what a "normal" number of visitors look like. Every day the colors of the environment will change slightly (weather, clouds, seasons, etc) so you must find the deviation between the current roof color and the baseline roof color (taken earlier on a holiday) and do this each day so you can apply that shift to the p
+--- [15] 35 likes | @LosingLoonies | id=UgyT74iFAt_URwtm1nV4AaABAg
+Huge thanks to Massive for supporting this work. If you need historical financial market data you can get it through the affiliate link to support the channel :) https://massive.com/?utm_campaign=losing-loonies
+--- [16] 31 likes | @user-1543f6 | id=UgyeX_fb5UX81moeUdF4AaABAg
+There should be plenty of data with 3m resolution.
+--- [17] 16 likes | @user-6694ad | id=UgzrsOakskuvlpGqMoJ4AaABAg
+Wrong enterprise logo… That’s the car rental company @ 8:41
+--- [18] 16 likes | @user-553097 | id=UgzwhA7OBgRkBdd3wrF4AaABAg
+Very interesting and high quality video! It is nice to see how you try to push applications of the things I study heavily (economics, finance, statistics).
+--- [19] 14 likes | @user-575b90 | id=Ugyoa5HzAkm2cBbKtvt4AaABAg
+Someone is payıng his subscription through argentinia I see 11:26
+--- [20] 13 likes | @user-255803 | id=UgwgB7ZlIL78QXOHMrp4AaABAg
+What about going even further back in the supply chain and looking at satellite data for oil tankers docked at port?
+--- [21] 11 likes | @user-6397cd | id=UgyBIUotCJus2VV2Mq54AaABAg
+0:38 didn’t have to flex on us like that
+--- [22] 9 likes | @user-a44fa4 | id=UgyR6Vv_xC4bKpiUv-h4AaABAg
+love how you did every image processing manually, I love that shit, but I feel like this is exactly where machine learning would be the right tool for the job
+--- [23] 7 likes | @user-eb33e6 | id=UgxPh3QgLnsRV04PEjF4AaABAg
+So what you need to do is find something like this storage facility near where you live then send a drone over once a week/month on a pre-programmed route taking pics of the site. Then convert the pics to a point cloud & 3D model (this is easy to do with open-source software...eg. WebODM). The 3D model can then be used to accurately measure how much is stored each gasometer (WebODM has a built-in feature that does this). --- For decades I've always done an approximation of this method to decide whether it's worth weighing in all my farm scrap.... There's a scrap yard just up the road from me that I drive past most days. When the scrap pile is getting larger it means scrap prices are low and 
+--- [24] 6 likes | @user-267b9c | id=UgzucD0oNQQqRbgIKGx4AaABAg
+In theory you could train an image recognition model based on procedurally generated images in blender where there is a ground truth known from the generation parameters then compare the prediction to it, keep training until satisfied then move to lower resolution images
+--- [25] 6 likes | @user-0bc3d3 | id=Ugxl7rKVLIpBEWvvhAV4AaABAg
+Monetizing your attempts at algo trading is ingenious
+--- [26] 6 likes | @user-d0e968 | id=UgxoIUzwK4pffVCXZaJ4AaABAg
+1 minute ago no views on my frontpage.. also how the hell?!
+--- [27] 5 likes | @user-0cfe4f | id=UgxehPi7OK4A4vQYBkJ4AaABAg
+This is actually old news in the hedge fund world. Been done for years already. All the major players have already integrated this data into this models so the information “edge” no longer exists.
+--- [28] 4 likes | @user-9f0d41 | id=UgzhLgoBIlyR2k1uPfR4AaABAg
+Buy a subscription for a satellite service that can provide the data before the publishing.
+--- [29] 4 likes | @user-61744c | id=UgwjQdQnSDauklF4bIF4AaABAg
+I think the next natural step is to use a clustering algorithm that will categorize tanks based on their shadows (i.e., fill levels)
+--- [30] 4 likes | @user-8ff734 | id=UgxVSyH6gkcsHrqOMW94AaABAg
+enterprise car rental owning oil tanks is funny.. that was on purpose right?
+--- [31] 3 likes | @user-f57b60 | id=UgxW7s_MxxDZQrUW0bp4AaABAg
+What if you just skipped all of the image processing which is causing a lot of deviation and looked more at the transportation and logistics of oil. You can lookup the live location of Oil tankers, which ports they are going to and from and trains. Then based on how many deposits are made a day you can calculate if oil will go up or down.
+--- [32] 3 likes | @user-c05029 | id=UgxfKOiQK870kiDdZtB4AaABAg
+I think stock markets are illegal
+--- [33] 3 likes | @user-e9627e | id=UgxmMB7c1bH0HCaOmjl4AaABAg
+Instead of counting individual cars, couldn't you use the entire parkinglot and take that as a unit, tracking changes in brightness levels. If you can find a control parking lot that is empty than you can find a baseline birghtness level.
+--- [34] 3 likes | @user-cf0e9b | id=UgznOg9lBKHnuMhxdfp4AaABAg
+Time to get planet labs as a channel sponsor
+--- [35] 3 likes | @user-09c47f | id=Ugygwp56iiyW3LzuQkJ4AaABAg
+Ah shit, we getting GIS based investing.
+--- [36] 3 likes | @user-772817 | id=Ugx7YLFe8H-BQ7omwKB4AaABAg
+This is proof of how learn by trial and error is not always the smartest solution.
+--- [37] 3 likes | @user-dd90af | id=UgxHRVLKVpDfsQf4B6N4AaABAg
+Super cool project. InSAR with Sentinel-1 is at least part of the answer here. You can get WAY more accurate tank levels, and depending on where in the world you chose to look, combining sentinel 1+2 can get you a 1-2 day revisit time (although clouds, etc are an issue at high latitudes where that works. Maybe just trade in the summer or something lol)
+--- [38] 3 likes | @user-cf2c45 | id=Ugzcwaw7hG48MkW1DJN4AaABAg
+Congrats on 50k! I've loved the year or so I've been here and never fail to click on any videos! Keep it up and lets get those student loans down. Silver Play Button soon?
+--- [39] 3 likes | @user-f74893 | id=Ugy8F5OBjfHEmtuTWsp4AaABAg
+I don't know if this is possible or not but if you are able to get the option prices for those stocks then the down side would be pretty limited (considering you are buying options of course) so if the prediction works out then your upside would be more up (just risk to reward ratio working ) or you could sell the counter option based on the prediction so that even if there is no movement in your trade direction , if price just goes sideways you are still making money (increasing the win ratio but destroying the risk to reward ratio by increasing the risk by a huge amount and capping the maximum profit levels). But in order for this to workout, the option prices would have to be available fo
+--- [40] 3 likes | @user-bacec8 | id=UgxMqvdKN8NkScmkQYp4AaABAg
+I really appreciate your videos. Super high quality, and a great mixture of building/coding and trading. But what stands out with your videos is the creativity. I always know I have 10 weekend projects ahead of me after having watched one of your videos. Thanks for your videos, man :-)
+--- [41] 2 likes | @user-22f870 | id=UgzOTyW4DDcgViam3kh4AaABAg
+Sometimes I wonder why I'm not gifted with 1/10th of this drive and curiosity, life must be so wonderful when your brain is wired that way
+--- [42] 2 likes | @user-c817d8 | id=UgyaLenX9EftjKyKlNt4AaABAg
+Welcome to one of the big reasons why high definition, very up to date satellite imagery is so expensive. The actual professionals who trade incorporate this (and other data of course) into their pipelines. The more mom and pop "day traders" there are that realize what they are competing with, the better. Thanks for this video.
+--- [43] 2 likes | @user-9c9ec3 | id=UgwdsGqWcZQaUzeYvdF4AaABAg
+Absolutely love the music selection!
+--- [44] 2 likes | @user-d74eda | id=Ugwgc7IrxWk_WoPB4MB4AaABAg
+2:49 Says the tanks don't have fixed roofs. Immediately shows tanks with fixed roofs.
+--- [45] 2 likes | @user-0b8106 | id=UgwMuVaURwy3vYIfB9J4AaABAg
+Holy fuck bro. Genuinely genius and so methodical. I can’t believe this video is real
+--- [46] 2 likes | @user-4f2348 | id=UgzlnHS6Un_xE2NgH8d4AaABAg
+Just pay a dude to go fly a drone. Like everyone is doing.
+--- [47] 2 likes | @user-d41cd6 | id=Ugy6IcnwXVqNX3AKnjt4AaABAg
+I'm actually responsible for developing a edge AI cubesat system whitch a resolution of ca. 3m. The real goal is bark beetle detection but we could give you data once we're in LEO (we're testing my prototype in the stratosphere this weekend!)
+--- [48] 2 likes | @user-bad27b | id=UgzfB7UDdU1hG2Vvrud4AaABAg
+Type of shii I think would be a cool idea but never actually know how to do, bravo my friend, GREAT VIDEO!!
+--- [49] 2 likes | @user-4f5be3 | id=UgwPAp5evmdcnG8TkIB4AaABAg
+Watching where cars go is like watching blood move through veins. It lets you know what organs are getting blood and which aren't.
+--- [50] 2 likes | @user-d4dc4c | id=Ugzm7Q2uTpdZ6j82AW54AaABAg
+You can test by driving to the region and use a drone
+--- [51] 1 likes | @user-41ec03 | id=Ugz3EFKT5Na3kH8wZnF4AaABAg
+U need to take the how the sun shifts in relation to the tanks throughout the year (summer-winter)
+--- [52] 1 likes | @user-8c1971 | id=UgxJNM5neos-7VXqiCl4AaABAg
+Synthetic aperture radar by Planet Labs 😅
+--- [53] 1 likes | @user-fb1769 | id=UgyQIAVd3m7ch9Zg_Id4AaABAg
+The background music and ridiculous piano ruin the entire video.
+--- [54] 1 likes | @user-9ab5b1 | id=UgwDrgxjNzIWkycrqXJ4AaABAg
+Interestingly enough, I feel like my senior graduate project could be applicable here. The low resolution imagery from the satellite could potentially be super resolved via a super resolution model. I actually made a lightweight model that was competitive with state of the art and they are surprisingly accurate. While I was making my own and doing my literature review, there were several groups that specifically tried making models built to super resolve satellite imagery. I wonder if you try using one of those models on the images if you could get better results. The current state of the art models are SWINIR and HAT, and I’m guessing a minor finetune on satellite data or potentially even t
+--- [55] 1 likes | @user-7fc3c3 | id=UgzFIkiCrqZecVkqwwB4AaABAg
+Could you compare the tanks with each other on the same date? If there was always a full tank and always an empty tank, then you can use that as max and min values comparing to all the other barrels, Sun is so far away I don’t think that degree will be of significance.
+--- [56] 1 likes | @user-bd6924 | id=UgyQmGp9HC0ze1RR45t4AaABAg
+Have you looked at the data feeds from IRIDE? It's a much newer constellation than Sentinel with better resolution. Or you could just bite the bullet and buy data from Airbus.
+--- [57] 1 likes | @user-19edb8 | id=UgzhTH2wGXVBTSE1iL94AaABAg
+Get on fiver, pay somebody to go fly a DJI over it
+--- [58] 1 likes | @user-e58448 | id=UgzWNpfzgEVbKyC2AsR4AaABAg
+From 2017-2022 as a senior production manager I knew exactly what TSLA delivery numbers would be at least 10-14 days prior to the official PR release. Even if I had traded based on this knowledge (which I could not because of insider trading rules as well as being in a lockup period) I would have lost money more than 50% of the time. Even if you have the knowledge you cannot predict how the market will react at any given time. Which is why cutting cars or oil is not illegal as they know you'll lose money regardless.
+--- [59] 1 likes | @user-a026c1 | id=UgzGAJtnKh_0XBsY30B4AaABAg
+This is not a new approach, U.S. agencies monitor China's crude oil reserves just like that.
+--- [60] 1 likes | @user-c4cba5 | id=UgwLHm2XlYHXtZzdakh4AaABAg
+6:59 it’s not unfair advantage in trading if you used publicly available satellite images 😂 If someone consider that unfair they should pass the law which will force refineries to cover their lids or something like that until someone allowing you to see all that I don’t think it’s unfair because you not only one who can see it And just imagine what big firms can do because they have money, cost of make something is fixed, if they have a lot of traders and capital they wouldn’t give a damn about, they use satellite with better resolution, and sure they use more of them to have pictures each day/mb hour and I don’t think that’s all they can do, there are a lot more, if we not mentioning firms 
+--- [61] 1 likes | @user-0f9cfc | id=UgwnWfwUH5JcFYjD-Nd4AaABAg
+Could cargo ships be used as a way to predict profits. Like how often they are arriving and departing
+--- [62] 1 likes | @user-14848f | id=UgzuIobSSGpYZndApp94AaABAg
+what the hell is "writing" code???
+--- [63] 1 likes | @user-684ae5 | id=Ugzwk68wU8pZaWwup3J4AaABAg
+What about using God's eye, the new open source project for this?
+--- [64] 1 likes | @user-7741da | id=UgwkzfaAXV3jHoAOShl4AaABAg
+But the sun is different heights at different times of the year. Are you only using the same day a year later?
+--- [65] 1 likes | @user-17415d | id=UgzgNvwj9F1NeAFrIZt4AaABAg
+I don’t think you can make this profitable because it lacks strategy; when it comes to relying on specifics, equity analysts always have the upper hand. At least from my experience, you use copernicus when the strat doesn’t rely mostly on data accuracy or it’s niche like red mud at disposal sites (moisture)
+--- [66] 1 likes | @user-7b969f | id=UgyjW_aBheMkLZTDfm14AaABAg
+I mean, legally speaking, theres nothing wrong with running a distribuited intelligence campaign and doing flyovers and taking photos with cheap drones. If you want to make money doing this you need a group
+--- [67] 1 likes | @user-4c723a | id=UgxcyTvcG-kVHEq3C054AaABAg
+Watching nearly every Video. Why dont you use Claude Code? 😅
+--- [68] 1 likes | @user-9b8e75 | id=UgwTUjaOR7WLGa5wg2V4AaABAg
+Top Ten Things That Feel Illegal, But Aren't (YET) #1:
+--- [69] 1 likes | @user-fa0947 | id=UgyqIY3t8JjXuoxUoFt4AaABAg
+Im curious if you could use the initial approach of checking the crescents, but also take into account the # of pixels out it is (even with the low res), but furthermore, fix the problem with haze, etc with a filter system. For instance, take one day as the "base day". Then find stuff that isnt the tanks, and should remain constant, with minimal shadowing, then apply a filter on the whole image based on the difference in the key spots brightness, etc.
+--- [70] 1 likes | @user-2547bd | id=UgxMfKSvTOtdmADcx_R4AaABAg
+will this help me with ornamental gourd futures?
+--- [71] 1 likes | @user-38fd33 | id=UgyuF5xaBcIPfMKhZvd4AaABAg
+Buy more expensive satellite imagery?
+--- [72] 1 likes | @user-42e528 | id=UgxJZaEZ5mc0aIePjO14AaABAg
+Depending on the size of these tanks, it would be interesting to see if you could use Sentinel-1 InSAR with minimal multilooking Persistent Scatterer Interferometry. It could give you an actual number for how low these caps/lids have fallen or risen up to mm level accuracy. Would be even better assuming that ESA provides ascending and descending track epochs so you can decompose the movement into 3d time series signals with something like MintPy. Cool video!
+--- [73] 1 likes | @user-cb5a8a | id=Ugzl84d1w6JJ2I7FXEZ4AaABAg
+theyve been doing this lol
+--- [74] 1 likes | @user-157de8 | id=UgxAtlYhgdK5xKbYHxt4AaABAg
+Problem with watching oil tank levels is that everyone trading oil already knows that and big european oil companies already have their own satellites that they use to follow tankers, tank levels, pipelines and fields. So better just to think further ahead, focus on fundamentals and stomach volatility if you want to make money or just trade short term using technicals.
+--- [75] 1 likes | @user-5cd059 | id=UgwF3Gykcl3pYqxTEQB4AaABAg
+use multispectral data in the next one
+--- [76] 1 likes | @user-3a4e30 | id=Ugzx4SYg6kXZW2iKIXB4AaABAg
+and peapol still swear by "ICT" is the method to make money with trading lol
+--- [77] 1 likes | @user-6a2790 | id=UgyGhje-0DpCp4Si7cB4AaABAg
+The tank fill level would be a classic machine learning problem fire up tensorflow
+--- [78] 1 likes | @user-d0fd56 | id=UgxN2k5b31EeH4gaCU14AaABAg
+Wow that music......😮😮😮😮😮😮😮😮😮😮😮
+--- [79] 1 likes | @user-08495f | id=UgzZHSnKwAANe_a5Ua94AaABAg
+Temu Ray Dalio
+--- [80] 1 likes | @user-4e5c7a | id=UgwwKSsiFsif-8dA7Zx4AaABAg
+If viewing just this one region, a balloon or drone might be better than satellite
+--- [81] 1 likes | @user-1eeb11 | id=UgykFn0_F4tCw5wAw2x4AaABAg
+Why didn't you just use this new data to determine how to trade, instead of assuming a buy or a sell?
+--- [82] 0 likes | @user-3d6e5e | id=UgzT1fVG31nWP31eHFV4AaABAg
+my man is dagoth ur turned trader
+--- [83] 0 likes | @user-6a63b4 | id=UgxJaYQ0jDP5ipy2OyV4AaABAg
+have you considered hiring someone from the area to just fly a drone over it/nearby every week?
+--- [84] 0 likes | @user-6a63b4 | id=UgzYpMeZwk-k9ISjNPp4AaABAg
+I think the fact that no multimillionaire investor has thought of this before makes me think all the more that they don't actually see the economy as a physical thing, with real people working real jobs that have real lives.
+--- [85] 0 likes | @user-5909bf | id=UgxuKv-P-yDOCgrQmqZ4AaABAg
+maybe pay someone to get drone footage of the tanks? or a license plate reader set up nearby so you can track how many tanker trucks pass by and estimate the tank levels that way? or do they use pipelines to move the stuff on and off the property?
+--- [86] 0 likes | @user-d2737e | id=Ugw_SnyhAcqOJeZFteZ4AaABAg
+Someone gonna make some money selling them the service of painting the lids black
+--- [87] 0 likes | @user-249409 | id=UgxtPwRy1klIzrifVfF4AaABAg
+business idea, fly drones over the parking lots of Fortune 1000 companies daily, sell access to photos as a subscription
+--- [88] 0 likes | @user-1f4b4b | id=UgzwTe9BAg0M2oK8HbV4AaABAg
+Angle of the sun isn't going to be the same at the same time every day, you'd have to adjust for axial tilt.
+--- [89] 0 likes | @user-fa5ddc | id=Ugy2jDxp8FgnVk0p4et4AaABAg
+just watch the orders of the firms who have the knowledge and tech.
+--- [90] 0 likes | @user-06eefb | id=Ugw6zOJA8n5i0aRPRoZ4AaABAg
+Man your geoint data analysis is another level. Do you eat datas for breakfast ?
+--- [91] 0 likes | @user-9fcd8c | id=UgwQGXxKBNCVakpLeS14AaABAg
+can't we machine learn this shit and train a model on normalized images?
+--- [92] 0 likes | @user-6e1a1d | id=UgxfMIszKv59mcKq-NN4AaABAg
+Metric measurements! Thank god Canadians have some common sense left. Thank you from Europe
+--- [93] 0 likes | @user-55e31d | id=UgxjoCqNUX7TTqSTRvF4AaABAg
+have u heard of Gods eye view? could be ur answer. save u $ too.
+--- [94] 0 likes | @user-99e29e | id=UgwZf7ttOxVfBeSqmZ94AaABAg
+How do I turn that bloody annoying music off from your video??
+--- [95] 0 likes | @user-61bb18 | id=UgxtmGKPhR4oXGvqdHt4AaABAg
+Gods eye view?
+--- [96] 0 likes | @user-3cf204 | id=UgwD2ia-aCWOPS7dnmZ4AaABAg
+You didn’t figure out the shadows lol you just read the article describing it.
+--- [97] 0 likes | @user-374c5a | id=UgzgP_hfK4SIkL17LJV4AaABAg
+Really? do people fall for your BS?
+--- [98] 0 likes | @user-cc8086 | id=Ugy1B40rGYH7JO5b9bZ4AaABAg
+This sounds genius! But with my 11 years trading experience I knows that, when a genius trading idea "leaks" for the public, it is either not profitable anymore or ...not profitable anymore.
+--- [99] 0 likes | @user-828b57 | id=UgwJNrstDcq5dLtNo_J4AaABAg
+35 seconds in and i feel useless
+--- [100] 0 likes | @user-23caae | id=UgwqatRbSpyOqRIQlT14AaABAg
+Great Video! Maybe you could track oil tankers?
+--- [101] 0 likes | @user-b70d18 | id=Ugw3ndMEgGI8IW9MODR4AaABAg
+Bayan Obo
+--- [102] 0 likes | @user-db5685 | id=UgwvwHaYsm8ABDDHwZ94AaABAg
+what about buying the crude oil barrels and then sending then to space ,into the satelites?
+--- [103] 0 likes | @user-97c44b | id=Ugx6_4YZRXuRQsxHKot4AaABAg
+When a measure becomes a target it stops being a measure. What this gonna do is make a market for fake parking lots.
+--- [104] 0 likes | @user-d908ec | id=Ugwzkczy4m-_eFEEFpZ4AaABAg
+Awesome channel 💯 But I recommend some more complicated approaches lol
+--- [105] 0 likes | @user-cfb1f0 | id=Ugz5qtN_viedgdhiQpZ4AaABAg
+This is really cool. I doubt it actually works due to "reasons", but overall, super cool stuff. [Subscribed]
+--- [106] 0 likes | @user-7f406c | id=UgwOlZWMHzj7-24SmHl4AaABAg
+This video is clear representation of what hiring agents expect of you for a entry level job like a mailing room assistant or barista in the office cafe.
+--- [107] 0 likes | @user-d566b9 | id=UgztWMkwcGYV32f8mw54AaABAg
+Can you make ETF like Kathy Wood did so that we can invest in you?
+--- [108] 0 likes | @user-f9beac | id=UgyCxDHFQpSnaDwiiMx4AaABAg
+This idea is 10 years old from a book. The secret club that runs the world by kate kelly, 2014 about commodity traders techniques to find alpha. You’re welcome chat. Correction: 12 years old.
+--- [109] 0 likes | @user-6a0848 | id=UgxfQv1eO5D024h7MWJ4AaABAg
+Just ask someone who works there
+--- [110] 0 likes | @user-7388ea | id=UgxOmOsHQU2bHkBkOhZ4AaABAg
+10:40 wait are you paper trading options or stocks?
+--- [111] 0 likes | @user-62ff45 | id=UgzGEYd92PpgTTJfQxJ4AaABAg
+This is an absolutely awesome idea, so cool in fact that its sadly been in use since 2015 by most hedge funds and people on wall street and is now a tool thats needed to not lose money trading oil. If you thought of it yourself though pat yourself on the back cuz its just the wrong era, maybe you can think of a new way to use data though.
+--- [112] 0 likes | @user-c07c21 | id=UgznEkpK9DOJXGkDvVl4AaABAg
+#SOAR
+--- [113] 0 likes | @user-409b48 | id=UgzTc05IekFYe-1tc8B4AaABAg
+Thank you for making this very interesting video. I don't really know what else to say. I'm just commenting to support your algorithm. liked and subscribed
+--- [114] 0 likes | @user-648096 | id=UgwsD5KOdFVrF-j9bGx4AaABAg
+The shadow will differ based on the current season - the sun will be lower or higher in the sky.
+--- [115] 0 likes | @user-dff8c1 | id=UgyWcftdM2ZhWEf-Zzp4AaABAg
+2:59 you would have to take into account the time of year as the sun moves up and down in the sky over the year changing the length of the shadows.
+--- [116] 0 likes | @user-dd9b64 | id=Ugz4nCZiO0sgf6xmYd94AaABAg
+That’s when he realized that, instead of cameras in orbit, he should rely on the camera on his desk to earn him money
+--- [117] 0 likes | @user-0647b6 | id=Ugx_r56YIvBksC_JhuF4AaABAg
+This is why I quit trading. Too many sweats...
+--- [118] 0 likes | @user-ae02e0 | id=Ugxv6hX4s9ZQY45wMqB4AaABAg
+99% of day traders go broke btw
+--- [119] 0 likes | @user-b175ed | id=UgxQtEonc065tPWBec94AaABAg
+Unskippable title
+--- [120] 0 likes | @user-aab0f5 | id=UgyawN0_CTQEYeGuaxJ4AaABAg
+this strategy is old in the world of quant trading, and I mean decades old. For anybody that is interested in general there is a a cool documentary -https://youtu.be/oZcH_VyFMUQ?si=8axIp85ce8fGHFFw . It features one guy that flies his drone over to get accurate footage of the tanks and a bunch of other stuff
+--- [121] 0 likes | @user-d84813 | id=UgwAgK5ZMcV6mgjh3yd4AaABAg
+Next get the parking imagery of brothels next to wallstreet silicon valley. The more cars you see, the more stock will go up
+--- [122] 0 likes | @user-781dba | id=Ugwtwy8h798utABkytx4AaABAg
+you clearly don't know how market works
+--- [123] 0 likes | @user-2f25b4 | id=UgwkNFykSWGuNGWu2eN4AaABAg
+There's a guy with a drone who takes pictures of these oil tanks on request. It's faster than satellite imagery. Someone made a video about it here on youtube.
+--- [124] 0 likes | @user-3c1de5 | id=UgyZZgUeHsoZ35hcrLZ4AaABAg
+Just fly a drone over every few days...
+--- [125] 0 likes | @user-6ed48d | id=UgwrKPB3I0HTM099-NB4AaABAg
+They were already using these strategies in in the 90s..
+--- [126] 0 likes | @user-058371 | id=Ugy-d_6mDinW7oSz0JV4AaABAg
+Why the background music dude… unnecessary and makes it hard to hear you. Just do plain voice like 3 blue 1 brown
+--- [127] 0 likes | @user-9d711b | id=UgwAHQ_gNPpkcsoT5Dd4AaABAg
+Way to reinvent the wheel. Which means it's already priced in. Which means that even when achieving 100% accuracy of this variable, your edge will be marginal, especially when combined with the uncertainty of the other gazillion variables. That uncertainty will utterly muddle your theoretical edge to the point of irrelevance. Backtesting won't help, you'll only get skewed results in a way that makes it impossible to untangle causal relationships. Though this approach definitely works to a degree, you need access to much more data addressing many more variables and integrate them all in your model. (And we haven't talked about the insights of Chaos Theory, which point to severely flawed assum
+--- [128] 0 likes | @user-e895ce | id=UgxmoYy04E1eqCzrPtd4AaABAg
+Photograph farmlands and water levels to determine household utility and food inflation prices, then buy units from the overpriced poor and flip the housing market?
+--- [129] 0 likes | @user-dd4895 | id=Ugz349mm-u_nWR5LNAF4AaABAg
+outsider trading is the new meta?
+--- [130] 0 likes | @user-665a9e | id=UgzDxknVeGKXm5srGUJ4AaABAg
+yeah bro it's totally 100% so illegal. so is using books, math, or literally any competitive edge. more importantly, using clickbait images should absolutely be illegal. rip this video's attrition rate.
+--- [131] 0 likes | @user-7caa74 | id=UgxpfEaKkwiLBR9huE94AaABAg
+flock.
+--- [132] 0 likes | @user-2dab4a | id=UgzkiagrSG4UWZgVLaB4AaABAg
+SpaceX be like: Right that down! And then deploy high resolution sattelites
+--- [133] 0 likes | @user-198888 | id=UgyX-xhTZ3irm287yqZ4AaABAg
+What a fun project.
+--- [134] 0 likes | @user-74b39d | id=UgyajASlm0H6XRDR5dN4AaABAg
+i feel like they'll make a documentary about you if this takes off bro
+--- [135] 0 likes | @user-354484 | id=Ugzq5oA6mo0QD3ZeBD54AaABAg
+Can it be done for something big & slow... Like construction companies??
+--- [136] 0 likes | @user-f3f5da | id=Ugz___IyxNOjrtgAZ8F4AaABAg
+pls apply your voluminous talents to the big problems, cancer, age related cognitive decline etc. Of course we all want cash but in the end looking back you will think that you wasted your life.
+--- [137] 0 likes | @user-15f693 | id=UgxTcpDNoQcjMBpHq-N4AaABAg
+you can mesure the shadow in relation with the external shadow of the whole tank it gives you the same ratio no matter what time it is
+--- [138] 0 likes | @user-6a679e | id=UgwGfcPCumfJyBkl2zV4AaABAg
+This was used during the big oil thingy years ago. Been going on for ages. Before Sats. It was helicopters and drones
+--- [139] 0 likes | @user-dfbab2 | id=UgxIR08oYZ7Zh0JhatR4AaABAg
+If it doesn't work and below the coin flip. Why not just put it vice versa? Instead of buying just sell
+--- [140] 0 likes | @user-d746f6 | id=Ugw30xpCbTdfYnv1Wt94AaABAg
+isn't the oil tank crescent technique the exact one used by that hedge fund trader? I think it's pretty popular now. I know you alluded to it in the beginning but you made it seem like that was your idea
+--- [141] 0 likes | @user-18db76 | id=UgwosZNnA1Ry_bnw--x4AaABAg
+I believe there are already satellites, but not accessible by us
+--- [142] 0 likes | @user-6654a8 | id=UgxH0GI54yMJYHmcx_R4AaABAg
+What if you just went out there and flew a quadcopter every week or so?
+--- [143] 0 likes | @user-7ff6a0 | id=UgzFROKrkmtxTTlBpI94AaABAg
+The problem is that any signal you can extract from publicly available information is likely already priced in because thousands of galaxy brained quants who are smarter than you, and a swarm of agents have already been working on this for a year, using better private information sources on top
+--- [144] 0 likes | @user-c3eefd | id=UgxlhoDyr0uw77SxrZl4AaABAg
+Oly molly
+--- [145] 0 likes | @user-9f9cde | id=UgwrQPrY9P9FLF6cJsh4AaABAg
+Vibe coding would be far easier and better.
+--- [146] 0 likes | @user-99266f | id=UgyF-6M8dSI20c5KiLl4AaABAg
+10:50 - "one of 5 trades was actually profitable" So.. can't you do the opposite of what the algorithm says and turn that into "4 out of 5" trades were profitable?
+--- [147] 0 likes | @user-1f019f | id=UgwUOS1YVY7Z-vhGcQx4AaABAg
+So next: sending a drone over the oil tanks?
+--- [148] 0 likes | @user-721310 | id=UgzswfaTm2_4RKzdR4h4AaABAg
+What about betting on a country's global trade (or their currency, which if i'm not mistaken can reflect this, amoung other things), and looking at how many container ships are going in and out of their ports, as them ships are bigger than 10 Meters, a lot bigger! ;)
+--- [149] 0 likes | @user-47b39b | id=UgwsJ7MtsC464hZvOpV4AaABAg
+possible in agri sector ~ agri funds
+--- [150] 0 likes | @user-c2bab0 | id=UgxweRvOpzLv5Ae-2Ox4AaABAg
+Anything that involves shipping is cooked with the crack spread at present. Anything involving Asian manufacturing is going to be cooked with the pressure from the Houthis on Bab al-Mandeb in combination with Hormuz. Need a combination of economic data, price data and observation.
+--- [151] 0 likes | @user-8fc944 | id=UgwP7Auov-LEu_DOu914AaABAg
+Do it for cruise ships
+--- [152] 0 likes | @user-a65667 | id=UgxTgZfUsCA1V2bf6-94AaABAg
+Okay but how did you get it to detect the tanks? Did you make an image recognition model to find them if there is let me know I want to make something similar but for open pit mines
+--- [153] 0 likes | @user-129e22 | id=UgzP0WFyUFU74-beQ2h4AaABAg
+Using this data to trade oil futures would probably actually work in terms of making money.
+--- [154] 0 likes | @user-b7c62e | id=UgzP80h4PYF80dPESVN4AaABAg
+Wtf you doing man? This is synthetic aperture radar satellites are for. They can get the same tank level data down to centimeter
+--- [155] 0 likes | @user-926ae9 | id=UgxJKSk8uZNf7hVyR1t4AaABAg
+this is awesome! something that popped into my mind is, do you need to correct for any seasonal time changes/daylight savings? this might produce error from the satellite imagery for parts of the year if you extract imagery when the sun is an hour earlier/later, even if the local time is the same, no?
+--- [156] 0 likes | @user-dc9607 | id=UgzWsph0ghLk3MvakzJ4AaABAg
+I call companies' call centers and ask if they're expanding or contracting.
+--- [157] 0 likes | @user-4361e2 | id=UgyaGUZiciDoVnRetyZ4AaABAg
+Use a model for upscaling🧐
+--- [158] 0 likes | @user-c8ae02 | id=Ugx48LxDfcbZApNKJGB4AaABAg
+The only satellites I know are LCS4 and Starlink
+--- [159] 0 likes | @user-bd4aa0 | id=UgwsqJq6g14yKzTabHZ4AaABAg
+Now let's look at the list of private satellites
+--- [160] 0 likes | @user-ca7ac7 | id=UgyN3db1zuvWknXuaoN4AaABAg
+you think there is difference between oil company report and satellite image regarding oil level?
+--- [161] 0 likes | @user-ee820c | id=Ugx7WwR0Nk79MP8Yei14AaABAg
+4:11 and the year
+--- [162] 0 likes | @user-5278dd | id=UgyVC5K9Ku8nppN61Sp4AaABAg
+Orbital insights did this about 10 years ago, great idea. Just 10 years too late
+--- [163] 0 likes | @user-fd3037 | id=UgzVCr5GlAMO9aQmBf94AaABAg
+porque sale que usas pesos argentinos?
+--- [164] 0 likes | @user-4df706 | id=Ugz8IDgVLpPVUQaZwaR4AaABAg
+What about trying with traffic data from Google maps, i believe has a better frequency and I think the more traffic at uncommon hours it means people have more money.
+--- [165] 0 likes | @user-f99be5 | id=UgwEvVamcO4dbUm29oJ4AaABAg
+You should try out the Bayesian method to adjust your algo. The fact that yours is already pointing the right way and you are just optimizing parameters tells me this should work. Maybe use the maximum log likelyhood to fit it, idk
+--- [166] 0 likes | @user-0f9db4 | id=Ugz3p-AcRyfGR2O_mu54AaABAg
+That's outsider trading
+--- [167] 0 likes | @user-df873f | id=UgwZQ4vdeQgoZl4oSG14AaABAg
+drones are a lot cheaper, maybe
+--- [168] 0 likes | @user-63ca79 | id=UgwwT9yN9rBhfR8hDYR4AaABAg
+“Rare instance where my background as a physics PhD collides with finance” like half the quants at most major financial institutions didn’t come out of physics programs
+--- [169] 0 likes | @user-3367fb | id=Ugy1QNkAxB2x2FoLasV4AaABAg
+You should use your audience to take all the pictures. People could simply be assigned a store that they live near. Stand on top of a truck and take a picture of the parking lot. Perfect resolution. Many data points can be collected. We all visit these stores regularly. It would be a few minutes to take and upload a photo.
+--- [170] 0 likes | @user-fee1d8 | id=UgzTgVXRBPSPH-8Gskl4AaABAg
+Good video.
+--- [171] 0 likes | @user-daa7b1 | id=UgxCvGIrgRJJBYOK2hd4AaABAg
+Could you use Google Earth Pro to get sub meter imagery, but somehow account for the capture date? I think the capture date is bundled in the source.
+--- [172] 0 likes | @user-77938e | id=UgwFgwIEpJty1pg8LFh4AaABAg
+This is genius
+--- [173] 0 likes | @user-2b4410 | id=UgyMSIVH6wX3I-eq1Wh4AaABAg
+U young Katz don’t Rreally Rrealize the gravity uv ur current orbital spin… whre wuz goo gah tubes 40yrs ago, sheesh🥺loose looney is an instant legend & those aren’t spawn’d evryday
+--- [174] 0 likes | @user-8b6c13 | id=UgwSxEzzl04rs_bbS4J4AaABAg
+Videos like these always make me realize how uneducated I am.
+--- [175] 0 likes | @user-897a7e | id=Ugxpbaa1if8kwCpW_9V4AaABAg
+genius idea
+--- [176] 0 likes | @user-5d32d5 | id=UgyXvcg28o1Uk7p01ox4AaABAg
+5:06 Grand Orangutans 🦧🦧🦧
+--- [177] 0 likes | @user-f50a3b | id=UgzzQHMBZrpilnvk27R4AaABAg
+I have heard a similar idea being used to estimate the water level in reservoirs. Tip: You need to consider the changes in the earths angle relative to the sun throughout the year. The shadow will change. What about snow?
+--- [178] 0 likes | @user-140699 | id=UgzrKBxaZDT6oYaJxPR4AaABAg
+oil??? did someone say oil
+--- [179] 0 likes | @user-4e313c | id=Ugxw38w0C6W5TFwXu_J4AaABAg
+Sentinel-2 observes at approximately the same local solar time, but solar geometry still changes seasonally. Ive been working on this too (a CS student). Email me if u wanna work tg.
+--- [180] 0 likes | @user-840d8c | id=UgwT2JFEAJphmqT6CDN4AaABAg
+How much years you got to spend in learning to be that smart? THATS CRAZY
+--- [181] 0 likes | @user-c6e358 | id=Ugz7bS1OpXuvd3nhBD14AaABAg
+How do you even come up with this 😭😭
+--- [182] 0 likes | @user-515bd6 | id=UgyUPXwaNcDPf02akrx4AaABAg
+But why would the tank landlors' stocks go up and down according the fill level?
+--- [183] 0 likes | @user-9ff3eb | id=UgxY7cb9ZZF67feiSSF4AaABAg
+I think it would be easier to focus your energy on marrying into a very wealthy family. It will require a lot of work if you are one of the poors but you sound professional enough to be at least considered.
+--- [184] 0 likes | @user-a06690 | id=UgyeNQxh5zUHKDKNE0N4AaABAg
+Question- Each tank has 2 shadows- The shadow of the tank itself on the ground and the shadow of the tank wall cast on the tank lid. why not just compare them? While it won't be a perfect 1:1, the ratio of the tank shadow vs the lid shadow should have a very strong correlation with the level of the tank. It will vary a little bit from tank to tank, but each tank will be consistent when measured against prior images of itself.
+--- [185] 0 likes | @user-8d1842 | id=UgyyHTxj8QqkKqaE7O14AaABAg
+Companies such as Kayrros and Orbital Insight do this for thousands of tanks around the world and sell the estimates to hedge funds and commodity traders.
+--- [186] 0 likes | @user-8a3874 | id=UgxxJZj2tjSKoupmXn54AaABAg
+interesting
+--- [187] 0 likes | @user-7da189 | id=Ugyo-UGtWXi3etsdtct4AaABAg
+Is this a reupload? I remember watching few months back.
+--- [188] 0 likes | @user-b7ab8c | id=UgxOhPUCy34HymATm-h4AaABAg
+Does the sun's inclination not change with seasons? Wouldn't that introduce an error in your calculation of the shadow over time that you'd need to correct for?
+--- [189] 0 likes | @user-f4d10b | id=Ugzg4dmBGVsoxkmJZe94AaABAg
+I feel like you were pretty close, but you should try to convert the images to get the (contrast) edges. Based off the edges you should be able to do better math than average brightness to calculate the shadow
+--- [190] 0 likes | @user-9ecd5c | id=UgzfkgeiwuB0_aD2b194AaABAg
+Use publicly available video cameras
+--- [191] 0 likes | @user-8da364 | id=UgyEdjzVPlSXtwB9jlB4AaABAg
+Have you tried using other bands? Sentinel has 13, maybe you can't count cars individually or the exact shade of the tank, but possibly you could look at different levels of the bands to detect materials. soil moisture, grain...
+--- [192] 0 likes | @user-b7ceb9 | id=Ugz1Rc4pDIVqDL4ZSdx4AaABAg
+This feels like a great application for a CNN regression model to estimate how much oil is in the tanks
+--- [193] 0 likes | @user-d42cf2 | id=UgyXXnwANuStMZDLdAx4AaABAg
+Let's train an MLP to estimate how crowded the parking lot is based on the noise on the pixels
+--- [194] 0 likes | @user-855b4d | id=UgxjivSQ0xOcFWv59eV4AaABAg
+Be careful, if a successful company implements rewarded car sharing policies, you will think they lose money.
+--- [195] 0 likes | @user-ee446a | id=UgyxmbQgUiYsIOJKTlp4AaABAg
+You are legend sir 😭😭
+--- [196] 0 likes | @user-b70451 | id=UgwJqGYELVLkaPVAGo14AaABAg
+Looks ideal but reality is far away . Trading oil or energy is something that big institutional can do .imagine everyone could do this and make money 🤣🤣🤣🤣🤣🤣
+--- [197] 0 likes | @user-e762b5 | id=UgyUsKVLJHMVsHd2fXB4AaABAg
+You dont need to see cars, you need to see if parking spots are occupied. for that you need a pixel of the same surface and lighting in the area thats never occupied as your standard. cars heat up differently and they reflect light differently than the naked surface. you only need to compare the pixel you want to know about to your standard and you get their status of occupation. if its the same as your standard the spots are empty, otherwise there is something on them. just make sure you use enough datapoints to keep the random error low.
+--- [198] 0 likes | @user-ce2258 | id=Ugx_ZcwMs_dfSEEBac14AaABAg
+on the one hand, "big finance probably does this already". on the other hand, they probably just have insiders who give them the numbers… 😅
+--- [199] 0 likes | @user-87ad0a | id=UgwV2_pD7nL35F6onit4AaABAg
+all that work just for stocks to crash on good earnings because of some random ass reason like macro environment, increased spending, oil, china out of no where saying they got cheaper version , ai fears , the ceo gets shot, random ass lawsuit. too many things you cant predict because its just all in wallstreets hands , yk what i heard, the stock crashes before there even is a reason and they make the reason after just so it makes sense. there is no predicting the market, long term fair enough
+--- [200] 0 likes | @user-0745dd | id=Ugy3wN3OT2qxquMxA2p4AaABAg
+Just try merging InSAR from multiple missions. This should work better than optical, but I bet you would not still be able to make money on this
+--- [201] 0 likes | @user-18a1f5 | id=Ugwd75ze25DLiLtTE5V4AaABAg
+tresuting government data in this day and age could be problematic.
+--- [202] 0 likes | @user-5a153d | id=UgwXfqZX7WDKKMZGAlF4AaABAg
+Makes you realize how underpaid some GIS analysts were before they reclassified portions of the profession.
+--- [203] 0 likes | @user-42f282 | id=UgweM0tIpDdTfUKNeAR4AaABAg
+just buy a drone
+--- [204] 0 likes | @user-22d870 | id=UgwPr-Q6_Zb6BLUZgJt4AaABAg
+Maybe try to use season on season base company to predict it even more
+--- [205] 0 likes | @user-6d2c30 | id=UgzwVCZ06wdXsu8hI8B4AaABAg
+nice advertising
+--- [206] 0 likes | @user-2294dc | id=UgyL1_BCMxbCX76kHvR4AaABAg
+The only way to estimate Chinese oil reserves is satelites.. Theyve started to even put storage underground making it even harder..
+--- [207] 0 likes | @user-cb7b2a | id=UgyZAHHbaVpANjBdqAZ4AaABAg
+Also consider initial capita, and investment fees, maybe they are marginal in larger investments, but if someone wants to try this with say 1000e, those transactions costs may become relevant
+--- [208] 0 likes | @user-26c7cf | id=UgyuJHuJaeK0jrlhyyR4AaABAg
+9:25 You just showed how little you know about finance. "Ill just sell and buy and profit" bro, the data youre doing all that from satellites, is already available elsewhere. This whole video was you just trying to look smart. really dumb. even if you did get the info from satellites it wouldnt make you any money lol. Youre just again trying to look smart, like you can use weaponized autism. But its just another youtube instructional video thats more about the video than actually results.
+--- [209] 0 likes | @user-7761ce | id=UgxNo274lvv_m1BArbN4AaABAg
+This is really part of your application to Jane Street right?
+--- [210] 0 likes | @user-999187 | id=Ugythsd7EGfp0uN_obF4AaABAg
+This is hunnid
+--- [211] 0 likes | @user-1514b1 | id=Ugx7idFvDsxSU5Q0Wy94AaABAg
+Can you predict crop yields with this?
+--- [212] 0 likes | @user-c538f0 | id=Ugy_R35xczh0aI12olB4AaABAg
+Did nothing then bragged about it, is wild
+--- [213] 0 likes | @user-593d4f | id=UgyQKEJVoEgo3mnN8KB4AaABAg
+5:47 kaze emanuar optimizing bob-omb eyes in sm64 bit
+--- [214] 0 likes | @user-f77c66 | id=Ugw9DmLpKcxyJsEIdm94AaABAg
+Wow that's an impressive work
+--- [215] 0 likes | @user-fbbbf5 | id=UgwPEc_UgpMDDNRoRo14AaABAg
+Planet Labs photographs any given spot on the planet once a day. Not to mention if you are going to trade oil futures on tank levels, you are ignoring 95% of the data that determines the price of oil futures.
+--- [216] 0 likes | @user-c736ae | id=UgzfvO9qRZpvFu3XKfx4AaABAg
+You could use the boats who carry oil to predict the market
+--- [217] 0 likes | @user-bf8175 | id=UgzsNGGlgnoeL-DUsCZ4AaABAg
+look if there is no "no-fly zone" and fly a drone near the facility.
+--- [218] 0 likes | @user-ef5ac4 | id=UgxQAKcfgIoup9LnzwV4AaABAg
+My guy forgot bloomberg terminal for 30000 usd a year gives this info or nearly for free at certain libraries
+--- [219] 0 likes | @user-26116d | id=Ugx156LwlLaHjY5g_dN4AaABAg
+They do this for ag futures to determine crop yields and profits. Check out SatYield
+--- [220] 0 likes | @user-da731f | id=UgwaqksD2AvVX_dpRGt4AaABAg
+Damn its sad that so much intelligence and investment in education goes to waste on the most useless pedantic non-sense. This is the reason our societies are failing. All our smart people are struggling to survive or corralled into working on projects that have no benefit to humanity. In fact this proves all the invested resources in education were a total waste to society.
+--- [221] 0 likes | @user-2439f3 | id=UgzGIYe7Q4BUQ_1sAkR4AaABAg
+You should think that countries use derivatives to bring down the price of crude, and when asked for actual delivery, they release their reserves against the sold prices, to net out of their position. This works until their reserves run out, at which point they could change the rules of the trading, as done in metals, or simply cancel out contracts at last minute, as unforeseen results took place. The idea that markets are free is naive, every market is run by an exchange place that has its own incentive.
+--- [222] 0 likes | @user-d16136 | id=UgwzMtZ833x4tatVnKt4AaABAg
+Cool video and methodology. Kpler and some other companies already do this with Cushing
+--- [223] 0 likes | @user-f14c4b | id=UgyiDZl0hrFdfwRFQq94AaABAg
+I know there is a paid service that uses drones, i saw it on YT.
+--- [224] 0 likes | @user-f79d24 | id=UgwfRmMdxnaIbDB_EJF4AaABAg
+bro is pushing jane street not knowing the more there are like him the less it works
+--- [225] 0 likes | @user-32c6b8 | id=UgypjZw53gwcMd7p-_V4AaABAg
+If you set up your own satellite dish, you can get data directly from the USGS satellites. @saveitforparts is a good channel
+--- [226] 0 likes | @user-86876b | id=Ugzb3GyuARdS_V0PxSh4AaABAg
+Peak :) .
+--- [227] 0 likes | @user-d6f3f4 | id=Ugx4boUCNOxgwy5XH4F4AaABAg
+Holy nerd. Good video
+--- [228] 0 likes | @user-20bad4 | id=UgyfixSt4JyWmQj4ajh4AaABAg
+I feel like you've missed something obvious. Isn't all of this crude oil in Cushing going out on trains?
+--- [229] 0 likes | @user-20bad4 | id=UgyrqKWoIbeKC5EaOwZ4AaABAg
+If you really think about it, this is only possible because the earth is flat
+--- [230] 0 likes | @user-b6704b | id=Ugzf7ZB6YhN_BvjXL2d4AaABAg
+The vid out means the idea got no profit
+--- [231] 0 likes | @user-483153 | id=UgzTEa1FH5n9RJNlbKp4AaABAg
+Saw this topic on YouTube in August while watching a video about how does the global economy work, found it very interesting. Thought I’d be good to keep a mental note of it and then this video was recommended to me. Idk if should take it as a sign or not.
+--- [232] 0 likes | @user-a46608 | id=Ugy4Qn0rmLvxPyTVnAp4AaABAg
+5! :>
+--- [233] 0 likes | @user-e43396 | id=Ugyn6VlWyE3ACQX_3Ex4AaABAg
+Why don't you just feed the publicly available data on crude as output of a CNN that takes in the images, backprop to create the model
+--- [234] 0 likes | @user-059bb6 | id=UgzCsIq2G19IGrn0bmt4AaABAg
+What about the height and angle of the sun based on the time of year?
+--- [235] 0 likes | @user-55d2fa | id=Ugy1u_zewMhK7Cw6hmt4AaABAg
+Shadow darkness will vary by the sun's different declinations throughout the year. A low sun in December will produce a much longer shadow than it will in June, thus appear darker, more empty, even though the tank might be half full at both times of year. Not to mention sunlight intensity variations. I think you may have to calculate roof height as a percentage of full for any given day.
+--- [236] 0 likes | @user-c3ff86 | id=Ugy81K8hW5GGumI4pfJ4AaABAg
+Insider espionage
+--- [237] 0 likes | @user-313d73 | id=UgyzrFGBxN4aE8lUeX54AaABAg
+The most profitable part of this project is this video itself
+--- [238] 0 likes | @user-94ab79 | id=Ugy6t9nxxK9EnoUMfeZ4AaABAg
+check shodan for open scada metrics for tank levels…
+--- [239] 0 likes | @user-7ab362 | id=Ugws9bojPYggkJuO6zN4AaABAg
+FINALLY
+--- [240] 0 likes | @user-47c200 | id=Ugwn48LAIfF09JKGzvR4AaABAg
+Subpixel feature detection is a thing. Heres how you do it: find a date with satellite photos of an empty walmart parking lot. Just look up abandoned walmarts. You want as many sat photos as possible. At minimim you want two: an empty parking lot and a full one. Segment by polygon (or by hand). Lower the color count for simplicity so you get a bootleg pooling mechanism. Next, you need some additional data 1. Random sat photos of walmart parking lots 2. Average area, 3. Average parking spots in a walmart. From here you can use the baseline sat photos of an empty and a full parking lot, with the additional data you gathered, to determine, on average, 1. How many cars can possibly park in a pix
+--- [241] 0 likes | @user-dfd896 | id=Ugz0fUQflwazftZhMhV4AaABAg
+Can you do soft ag next?
+--- [242] 0 likes | @user-63f43d | id=UgwBtyjUWr0eHvDgsDt4AaABAg
+priced in as soon as someone at spacex sees this
+--- [243] 0 likes | @user-04bbd5 | id=Ugz9dbvwVpd5dmnV7U94AaABAg
+I have a better idea xD
+--- [244] 0 likes | @user-622ace | id=Ugyhw74dl4vgtUwigO94AaABAg
+Hey what coding language you use .
+--- [245] 0 likes | @user-9378cf | id=Ugxnyh1nYYmePgVCQ6p4AaABAg
+Sell the shovels, sell the info rather than trading.
+--- [246] 0 likes | @user-755d25 | id=Ugx79WDemh8JGhJzTEN4AaABAg
+Crazy that this guy needed a youtube channel to make money... someone with this knowledge should be working for a giant quant fund not needing a youtube channel to pay student loans.😂 Just how cooked the job market is.
+--- [247] 0 likes | @user-1102ed | id=UgyPkSTg5fYeRwqALOp4AaABAg
+That’s creative.
+--- [248] 0 likes | @user-f17152 | id=UgxmZwkqorbTVy8cA-p4AaABAg
+Good content. The idea itself is brilliant despite that it didn't work out as expected. PS. It really reminds me of my idea of calculating the monthly trade volume on Coinbase as trade volume plays major factor for the earnings. And based on the trade volume to estimate the earnings report before it comes out. Well it turns out it didn't work because trade volume and exchange fees relationship is non-linear. Vip accounts make bigger trade volumes with low fees, where as retail accounts fees are bigger, so we dont know behind the trade volume number how much the exchange actually earned from fees.
+--- [249] 0 likes | @user-c3a927 | id=UgwVgEgp-I7GTisgwsZ4AaABAg
+Somewhere I read about a strategy focusing only on the best performer of the SP500 at any given time. So its basically buying the best company of the index and making adjustments every time that the company gets replaced by selling it and buying the new TOP 1. And the statement was that it beats the index itself, which I am very sceptical of, but you could maybe run the numbers and come to a conclusion for all of us, since you are our personal Nuclear Physicist.
+--- [250] 0 likes | @user-7cb278 | id=Ugxw_U_51MX40C8F9ad4AaABAg
+Wtf por que no solo miras el flujo de ordenes y ya
+--- [251] 0 likes | @user-7cb278 | id=UgwM-T7oksXp0zhQm8F4AaABAg
+Bro......😮.
+--- [252] 0 likes | @user-c85fcc | id=Ugzs8DWKLlIKxmUxdF14AaABAg
+I think If you pay the right person, you can fly a drone over it
+--- [253] 0 likes | @user-6d4b74 | id=UgyveLymssSZ1yVP95V4AaABAg
+Love it.
+--- [254] 0 likes | @user-3647fc | id=UgyfbTB7RdHghs-CzJp4AaABAg
+How do you edit your vedios?
+--- [255] 0 likes | @user-07f04e | id=UgwIuM6HLwytfaFy8xN4AaABAg
+This idea is already taken by a guy who lives in oklahoma. he flies his drone every day above the oil tanks and sells de videos and photos for a huge premium to traders
+--- [256] 0 likes | @user-40a41f | id=UgyUg0Rjnv5gwEpM9cF4AaABAg
+People Gunna start putting tarps over their oil tanks
+--- [257] 0 likes | @user-58cc15 | id=UgzkAwWYLf2cFRsQHy14AaABAg
+Did you try buying a printer and starting printing money?
+--- [258] 0 likes | @user-92c8d9 | id=Ugxncl5GLz29aslg6dR4AaABAg
+That's crazy effort when Iran just tells you straight up.
+--- [259] 0 likes | @user-cff5f2 | id=Ugy_2rdSsGZfb-7S8Rt4AaABAg
+bro just sell a Course...
+--- [260] 0 likes | @user-306ad1 | id=Ugz7vEg2MW1JAuooctR4AaABAg
+This whole thing reads like the end of an action movie where the nerdy kid is laying out his elaborate plan of how he is going to save the world but instead its just you trying to make a buck to pay off your student debt 😢
+--- [261] 0 likes | @user-3e347c | id=UgyCt12BRLexjPpKgDx4AaABAg
+This is so cool, never thought to use remote sensing to predict financial stuff. Might need to try myself to payback my student loans xD I dont know what software you used, but I used google earth engine for my bachelors thesis. I think this can be very helpfull and easy to use, cause you dont have to download images and it is very easy to load images from sentinel over different time series. Besides I still think the carpark strategy will work with the same strategy you used to calculate oil tank fullness, I'm sure the reflectivity of cars are different compared to asphalt if you use different bands outside of visible light. However to find groundtruth polygons you might want to use other s
+--- [262] 0 likes | @user-07a7e1 | id=UgwahbsX4eWj4iIX2Q94AaABAg
+what if more cars meant more theft
+--- [263] 0 likes | @user-e19585 | id=UgxBJreY5HagmGe4sCB4AaABAg
+Buying access to the private repo doesn’t grant api access right? I would need to know which ones to buy to make the model work
+--- [264] 0 likes | @user-1a2061 | id=UgzMCy7XUT5kbK433ZV4AaABAg
+Satellites fixed target is so 2010. 2026 is agents based mass harvesting from the internet, profile analysis of ceos and real time tracking of supply chain.
+--- [265] 0 likes | @user-420746 | id=UgwTcg_PJJLbveNx6794AaABAg
+i lov u
+--- [266] 0 likes | @user-6d9b72 | id=UgzAZULYVcqNBJ8R4uR4AaABAg
+Check out SAT-AIS codes ... Lots of juicy underutilizing data
+--- [267] 0 likes | @user-624ca6 | id=UgxSdLHLmhmrXUmSOR54AaABAg
+Started Carl Brent Anthony program last week, but I’m already second-guessing myself. 🤔 Anyone else feel like this at first?
+--- [268] 0 likes | @user-110fa9 | id=UgxDNfPGpjVIl-MqqM54AaABAg
+there's public data for this, you have a better shot at finding something for which there's no public data and what influences polymarket outcomes.
+--- [269] 0 likes | @user-43cec4 | id=UgyfW6SjaFryXnQrqeB4AaABAg
+wall streets been doign this since the 90s bro, same with oil tanks.. these days they just have drones
+--- [270] 0 likes | @user-9e2d18 | id=UgwqNWb8CtVDgGo4oKZ4AaABAg
+enhance!
+--- [271] 0 likes | @user-c6fa17 | id=Ugwhgdrt7smGbeRqZKV4AaABAg
+Make sure you are factoring in how the earth's rotation affects the sun/shade~
+--- [272] 0 likes | @user-7b21c6 | id=UgwMkANMBGLgVy3Vw-l4AaABAg
+Cool idea but you're forgetting something: The market is not rational.
+--- [273] 0 likes | @user-17c5b7 | id=UgxjYsBm4e1KS8ko0mV4AaABAg
+Haven't watched it yet but buying SPY probably just beats it. Watched it. Interesting data so far
+--- [274] 0 likes | @user-4d3abe | id=UgyMC4ceK-pEtZcVFKJ4AaABAg
+You don't need to send a satellite up. You just use a drone. Ukraine is trying but they keep getting it wrong and they keep crashing into the tanks. Maybe they will get there soon.
+--- [275] 0 likes | @user-a2697a | id=UgwgHoZaG8DjrJnbuy54AaABAg
+Yo congrats on this vid
+--- [276] 0 likes | @user-b60908 | id=UgwNlKRLXRBFyzP2g454AaABAg
+i kinda want access to that capacity data..
+--- [277] 0 likes | @user-cf3e18 | id=UgycPrrmVuAMRY9fR2Z4AaABAg
+This is awesome
+--- [278] 0 likes | @user-177937 | id=Ugyu5i8WSGj3IjEG1ep4AaABAg
+I feel like this information is too easily accessible to not be mostly priced in, which kinda makes it like collecting pennies in front of a steam roller, but that's just conjecture.
+--- [279] 0 likes | @user-676413 | id=UgxYXLLZwa3IF8hlu0h4AaABAg
+W
+--- [280] 0 likes | @user-0d3a5e | id=UgybFyYYTHK5UCiTv5F4AaABAg
+Instead of brightness you might also be able use Cosine Similarity, comparing the current image and the image at full from 0 to 1 closeness to the image at full.
+--- [281] 0 likes | @user-099c91 | id=UgxLJGg7xVEkuCCQqDR4AaABAg
+I had no idea satellites images could give a hint of any size... Maybe track gold mines next? Is that even possible?
+--- [282] 0 likes | @user-81a311 | id=UgxVK8zyjHY5kh-DZrN4AaABAg
+Oh ! I am new to this. Why do the tank owners' stocks vary based on quantity of oil in the tank ? Does it effect the amount they choose to sell daily ? And that effects their overall quarterly reports ?
+--- [283] 0 likes | @user-fc0991 | id=UgzDi8MdSFLe5-2suXd4AaABAg
+What about the sun axial procession?
+--- [284] 0 likes | @user-5ca34c | id=Ugxp3OcvKOEKSWUFV5B4AaABAg
+gang , what are we doing now
+--- [285] 0 likes | @user-1d9c79 | id=Ugzchrr0jxGreY94V8J4AaABAg
+You're probably better off bugging some conference rooms, or simply buying some voters' data (brexit data proved quite lucrative)
+--- [286] 0 likes | @user-4b1557 | id=UgyAOAIen0J3vwzgLRJ4AaABAg
+why not pay someone to fly a drone daily and take pictures of the tanks every x days? (assuming it's not 'illegal')
+--- [287] 0 likes | @user-4541b5 | id=UgzncV5_N3YqVGFYoiJ4AaABAg
+Anyone else completely in the comments here now completely unsurprised as to why there are so many SAR satellites being launched
+--- [288] 0 likes | @user-187ab8 | id=UgxwSlGz7abdovuLrs54AaABAg
+I wish to be whatever he's onto to come up with crazy stuff like this.
+--- [289] 0 likes | @user-683a22 | id=UgyLMAk5tQzCGWdpmK14AaABAg
+The problem is gov'ts are manipulating prices. There is a severe shortage of Oil, but the as long as gov'ts manipulate prices its very difficult to make good trades. I also fear demand destruction as consumption declines dramatically because of the higher fuel prices.
+--- [290] 0 likes | @user-503f60 | id=UgyD3dodNqpwmqb8Nht4AaABAg
+I think has no use for it
+--- [291] 0 likes | @user-698c8d | id=UgwApL_KV6j11PZQYfB4AaABAg
+Did you account for the angle changing based on time of year. Because when it gets colder the angle of the dangle changes.
+--- [292] 0 likes | @user-2c2f30 | id=UgxYYwWjoOXcausEXNx4AaABAg
+Planet Labs?
+--- [293] 0 likes | @user-216909 | id=Ugzic-67ZyJpIwfaIkN4AaABAg
+Have you looked into Planet labs as an option? They have daily earth imagery with a much better resolution than 10m
+--- [294] 0 likes | @user-5ed42d | id=UgyKtxmxydNTcI5Y9Xd4AaABAg
+Bro you're trying to compete with Jane Street, give up. Just sell AMD, NVIDIA and AAPL puts
+--- [295] 0 likes | @user-f4ef97 | id=UgwnfxSVKm5BKQdkubd4AaABAg
+Already priced in btw
+--- [296] 0 likes | @user-79422e | id=Ugza0bX4p_JtSOAvLDV4AaABAg
+Should switch to live "trading" prediction markets. I'm sure there's a way to play off public sentiment vs actual odds
+--- [297] 0 likes | @user-6f8975 | id=UgyC1tced7J1z8GFhat4AaABAg
+According to the efficient market hypothesis, prices react instantaneously to news. Although the EMH may not be 100% true, it's easy to verify that the price of many financial assets indeed react instantaneously to published financial news (i.e. the price moves just for 30-60 seconds or so). Have you tried trading the oil price (i.e. opening and then closing the position) in the 30-60 seconds right when the news is published? That would get rid of 99% of volatility of your first proposed strategy (which I reckon is trading oil and keeping the position open for one entire week), which could also explain why the strategy is not profitable due to volatility drag. EDIT: In other words, let's say
+--- [298] 0 likes | @user-32a3a3 | id=UgyZ5Q03_g8eOyr3Tm94AaABAg
+Google maps is mostly not satellite imagery it's mostly aerial planes
+--- [299] 0 likes | @user-1a9756 | id=UgwiBHYGIG__Bdu2mGp4AaABAg
+You could do this with retail, containers at ports, trucking companies with rigs that are parked vs out and about, farms cultivated vs fallow for wheat and corn futures contracts… the possibilities are huge.
+--- [300] 0 likes | @user-2e4d32 | id=UgzXdjIPGEZPwM5E7OR4AaABAg
+amazing video but leave the music next time
+--- [301] 0 likes | @user-dc2190 | id=UgytRZgaofgegcAAvz14AaABAg
+Why don‘t you feed the images in a CNN and use the government reports as labels. Should work much better then your hardcoded estimation
+--- [302] 0 likes | @user-a2d197 | id=UgxTV1OH3Hhslp3N-Rd4AaABAg
+AI
+--- [303] 0 likes | @user-42e528 | id=Ugz_6bAa11dowaxvuGp4AaABAg
+Don’t let mercuria see this bro
+--- [304] 0 likes | @user-e0851b | id=UgyDpRyFhiKblk11GX54AaABAg
+damn,i am better of index fund
+--- [305] 0 likes | @user-772817 | id=UgxMd65B82i9b1LwL_d4AaABAg
+How about you just get a drone and fly bver it every day?
+--- [306] 0 likes | @user-970d12 | id=UgzNL1pl-PG8fGQ0k_14AaABAg
+My favorite schizo poster of the past few months
+--- [307] 0 likes | @user-2a5bcf | id=UgxoBX1zr-8iZAryBwx4AaABAg
+Have you considered training a CNN on each silo to predict the fill amount?
+--- [308] 0 likes | @user-a56218 | id=UgwGF_eDr7lee3MQbIl4AaABAg
+Good video in theory, but if this did make money for you, you wouldn’t be posting a video about it!
+--- [309] 0 likes | @user-76c99c | id=UgwqgfWwUoP44NnZUvZ4AaABAg
+This guy definitely doesn't let his peas touch is mashed potatoes.
+--- [310] 0 likes | @user-dfb512 | id=UgwWmpoP2cNqnE_4stR4AaABAg
+Don't know how much satellites make their gallery open, but if it's more than one then instead of using one photo made by one satellite, you can use multiple photos made at about the same time by different satellites to improve resolution. That way you could up the ante and look for cars or even something smaller given enough photos at right positions were made.
+--- [311] 0 likes | @user-4f180e | id=Ugzhl_J98aNZPz_7TXp4AaABAg
+But i wonder how you can make money with this method even if you are able to do better estimations. Bigger companies are already doing estimations with alot more ressources so you are in competition with them since their analysis is already priced in. Maybe i got it wrong and theres a detail im not seeing here but it seems impossible to actually do better estimation in a field (oil industry) with so much competition.
+--- [312] 0 likes | @user-422aa2 | id=Ugxi5gVy-4fY3MfMUGh4AaABAg
+Next video, use the data from celebplanes (airplanes) to predict stocks
+--- [313] 0 likes | @user-56f368 | id=Ugy9vyTSarT3D_7nNQt4AaABAg
+There are a lot of variables not accounted for in your data, and I did not even know how you managed to get close, at least in direction. Since you did not account for weather and cloud coverage, sun angles, seasonal fluctuations, satellite distortions, etc. Even with that, you did not account for geopolitics in the oil industry, with these wars, currency shifts, etc since anyone investing in crude oil or the owning companies would have easily benefited just due to wars that made crude oil this expensive to begin with, which generally has nothing to do with how much oil there is in any barrel. I hope you pick something other than oil for your next ones, just due to all the factors involved h
+--- [314] 0 likes | @user-093f3b | id=UgziBfmZ-0iBCa8_C054AaABAg
+S/O Oklahoma
+--- [315] 0 likes | @user-2f2050 | id=UgzSARSDO9gPzYtPc3t4AaABAg
+hmmm, production value improved quite a bit
+--- [316] 0 likes | @user-785444 | id=UgyaBBHWIP84A8QEWO94AaABAg
+We could also do that with the strait of hormuz?
+--- [317] 0 likes | @user-c15d5d | id=UgyhiAg9_9Vl1Snxba54AaABAg
+When you are going to revisit the old methods with the feedback from the comment sections?
+--- [318] 0 likes | @user-3ca2c2 | id=UgxtdVs3GmplCQwwgDp4AaABAg
+very interesting ideas being presented here, but is it really possible to scale up this method when considering cloud coverages? if i remember correctly Sentinel-2 doesnt penetrate clouds and it only visits the same place once in a couple days also, do you think its possible to do this with other stuff like perhaps agriculture?
+--- [319] 0 likes | @user-2c83f7 | id=UgwvlC-f4J-Y60CIbYN4AaABAg
+It's public information, how could it not be legal
+--- [320] 0 likes | @user-7da11c | id=UgxgYBdw7eEGWVPEq014AaABAg
+Bro thinks he's Ray Dalio
+--- [321] 0 likes | @user-6c2288 | id=UgxUA2KGB6Uidg9KMWd4AaABAg
+Why you have YT in argentinian peso? sus
+--- [322] 0 likes | @user-7faeef | id=UgwlFENPC00xJve3HzR4AaABAg
+wow good work. dump some money into this for us please
+--- [323] 0 likes | @user-028836 | id=UgzA70eB2Gx71iTAJYB4AaABAg
+Try gods eye view?
+--- [324] 0 likes | @user-66cd35 | id=Ugzw5lXJBB0kc_tfVNl4AaABAg
+Wallstreet calling
+--- [325] 0 likes | @user-770c7b | id=UgyUSlgMw5wzCDq3cBt4AaABAg
+w video, so creative man
+--- [326] 0 likes | @user-770c7b | id=Ugy_j13QcmUn-toirXJ4AaABAg
+let try drones guys (i dont take responsability if its illegal)
+--- [327] 0 likes | @user-902ad5 | id=UgyfYS2Xf3fcpqkzoX14AaABAg
+Mhhuu
+--- [328] 0 likes | @user-05f57c | id=UgyeDT_-7ejes5P-PY54AaABAg
+bro make a youtube shorts to Trade Stocks
+--- [329] 0 likes | @user-d9af8b | id=UgxW24yeo5ir_ZHWmK94AaABAg
+why does the tank filling correspond to these companies' profits
+--- [330] 0 likes | @user-91219a | id=Ugz3R9qV1mpKDLsY_Fp4AaABAg
+Yurrrr
+--- [331] 0 likes | @user-32bcff | id=Ugw_CxXxhUMauOeIgTV4AaABAg
+Is it worth it to try and calculate the fee the oil storage company charges/ their revenue and trade at their earnings report? Or does that also run into the same problem as with the numbers already being published by the government
+--- [332] 0 likes | @user-0b3c6e | id=UgwUT5nR1sb65rch_x14AaABAg
+Big brain
+--- [333] 0 likes | @user-f2060d | id=UgysUyANoWFc73HEwfB4AaABAg
+your journey really start being more excited ; i was thinking why not add Weather reports as filter, Natural Gas likely goes up in winter due to high demand ?
+--- [334] 0 likes | @user-93e3f2 | id=UgzZTvyqUgIfpwwmxXF4AaABAg
+How do you even come up with this 😂
+--- [335] 0 likes | @user-262603 | id=UgxUsQJB33qWLFoWr1N4AaABAg
+I've taken one for the team, I made a list of evil companies and invested in all of them. As we all know as soon as you invest in a stock it will tank. I invested in Adobe a week ago, and all of their software got cloned by ai days later. I'm really looking forward to whatever is going to happen to nestle next week.
+--- [336] 0 likes | @user-01b978 | id=UgxFyCCY6X7xeO8pGwl4AaABAg
+1stt
+
+
+########## REPLIES TO AGRI COMMENT ##########
+[15] @user-a65667: The issue with the stock market is that if it’s easier to do… then the price is more likely to be correct rather than lagging. So the rarer the data the higher the variance of the actual price and the predicted price meaning more profit if you are correct.
+[6] @user-59ce65: You make it sound as if you’ve done something similar in your time haha
+[1] @user-fdeba3: i think it have more variables as crop grow can vary in time and harvest is chosed by its ripeness, while places are changed all the time for ground nutrients recovery so you would always look elsewhere and calculate sizes and uealds individually

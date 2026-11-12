@@ -1,0 +1,4 @@
+index,r_levels,r_levels_within_year,r_changes_within_year,n_changes
+pooled,-0.6,0.119,-0.138,259
+demeaned,0.124,-0.056,-0.245,259
+selected,0.457,0.337,-0.013,259

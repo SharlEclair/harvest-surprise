@@ -1,0 +1,7 @@
+.venv-scratch/
+__pycache__/
+*.partial.csv
+spike/data/years/err_*.txt
+
+.env
+data/raw/

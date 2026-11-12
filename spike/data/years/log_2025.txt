@@ -1,0 +1,2 @@
+2025:  4/ 4 composites, mean NDVI 0.8087  (33.3s)
+wrote spike\data\years\ndvi_2025.csv (4 rows) in 33s

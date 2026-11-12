@@ -1,0 +1,123 @@
+=== verify ===
+PASS  yield: readable                              14121 rows
+PASS  area_harvested: readable                     10199 rows
+PASS  area_planted: readable                       6718 rows
+PASS  condition: readable                          82414 rows
+PASS  yield: no duplicate state-year-period        0 duplicates
+PASS  yield: 2023 states reconcile to 177.3 bu/ac  implied 177.3 from 41 states
+PASS  yield: 2024 states reconcile to 179.3 bu/ac  implied 179.3 from 41 states
+PASS  yield: all four in-season forecasts present  missing set()
+PASS  yield: Aug forecast covers >= 20 years       64 years, 41 states
+PASS  yield: Aug->final revisions are non-trivial  median |rev| 6.00 bu/ac, n=1692
+PASS  yield: most Aug forecasts are not exact      92% revised
+PASS  condition: category percentages sum to 100   100% of 16522 state-weeks in [99,101]
+PASS  condition: week_ending is a date             100.0% parse, 2000-05-21 to 2025-11-16
+PASS  area: planted >= harvested                   100% of 4679 state-years
+
+14/14 checks passed
+samples
+reference_period_desc   YEAR  YEAR - AUG FORECAST  YEAR - NOV FORECAST  YEAR - OCT FORECAST  YEAR - SEP FORECAST
+state_alpha                                                                                                     
+IA                     201.0                203.0                200.0                199.0                200.0
+IL                     206.0                201.0                203.0                200.0                198.0
+NE                     182.0                184.0                173.0                174.0                177.0
+MN                     185.0                183.0                181.0                179.0                180.0
+IN                     203.0                195.0                200.0                197.0                194.0
+=== gate0 ===
+events 172  2010-06-10 to 2026-11-10
+zero-revision releases: 52%; sigma_u = 2.99 bu/ac
+median |revision| among revisions: 1.6 bu/ac
+
+--- oracle P&L by lead time (know the revision sign, trade k days early) ---
+  k= 0d: n= 83  mean +1.095%  t +4.13  hit 64%
+  k= 1d: n= 83  mean +1.307%  t +4.51  hit 65%
+  k= 2d: n= 83  mean +1.376%  t +5.03  hit 65%
+  k= 3d: n= 83  mean +1.429%  t +4.95  hit 67%
+  k= 5d: n= 83  mean +1.666%  t +5.40  hit 70%
+  k=10d: n= 83  mean +1.888%  t +3.73  hit 69%
+
+--- price response ---
+  OLS beta -0.132% per bu/ac (se 0.056, t -2.35), area control +0.110% per M acres (t +0.47), R2 0.032
+  sign-trade implied +0.426% per bu/ac (-mean P&L / mean|revision|); the two agree in sign, and the sign trade implies the larger effect
+
+--- how much of the oracle edge survives a premature trade ---
+  k= 0: +1.095%/event  (100% of same-day)
+  k= 1: +1.307%/event  (119% of same-day)
+  k= 2: +1.376%/event  (126% of same-day)
+  k= 3: +1.429%/event  (131% of same-day)
+  k= 5: +1.666%/event  (152% of same-day)
+  k=10: +1.888%/event  (172% of same-day)
+
+--- break-even surface from the OLS beta (0.13%/bu, cost 0.15%) ---
+  RMSE 0 bu/ac -> rho 1.00  gross +0.393%  net +0.243%/event  annual +1.23%
+  RMSE 1 bu/ac -> rho 0.95  gross +0.375%  net +0.225%/event  annual +1.14%
+  RMSE 2 bu/ac -> rho 0.71  gross +0.281%  net +0.131%/event  annual +0.66%
+  RMSE 3 bu/ac -> rho 0.00  gross +0.000%  net -0.150%/event  annual -0.76%
+  breaks even at RMSE < 2.99 bu/ac (100% of sigma_u)
+
+wrote data\processed\gate0.png
+=== gate1 ===
+panel: 468 state-years, 18 states, 2000-2025
+missing yield 0, weather 0, ndvi 18
+loyo      B0: n=468 rmse=15.606 mae=11.484 bias=-0.006 r2=0.667
+loyo      B1: n=468 rmse=13.471 mae=10.203 bias=-0.155 r2=0.752
+loyo      B2: n=468 rmse=13.215 mae=10.093 bias=-0.131 r2=0.762
+expanding B0: n=360 rmse=17.626 mae=13.230 bias=-0.702 r2=0.570
+expanding B1: n=360 rmse=15.379 mae=12.093 bias=-1.321 r2=0.673
+expanding B2: n=360 rmse=15.377 mae=12.003 bias=-2.382 r2=0.673
+usda      B3: n=468 rmse=9.455 mae=7.579 bias=-0.160 r2=0.878
+
+is weather+NDVI better than weather alone? (year-block bootstrap)
+  loyo      reduction -6.83 (95% CI -17.13 to +3.52); includes zero, not distinguishable
+  expanding reduction -0.07 (95% CI -15.43 to +15.61); includes zero, not distinguishable
+
+national aggregate (harvested-acre weighted):
+  expanding|B0       RMSE 12.13  MAE  8.79  bias +0.69  n=20
+  expanding|B1       RMSE  9.11  MAE  7.41  bias +1.76  n=20
+  expanding|B2       RMSE  9.06  MAE  7.45  bias +2.80  n=20
+  loyo|B0            RMSE 10.30  MAE  6.46  bias -0.13  n=26
+  loyo|B1            RMSE  6.87  MAE  5.42  bias -0.01  n=26
+  loyo|B2            RMSE  6.45  MAE  5.17  bias -0.04  n=26
+
+wrote data\processed\gate1.png
+=== gate2 ===
+state-years with model, forecast and final: 360
+corr(model - USDA August, final - USDA August) = +0.146
+  year-block bootstrap 95% CI: [-0.028, +0.300]  (n_boot=2000)
+  slope: 1 bu/ac of disagreement -> +0.10 bu/ac of revision
+  share of revisions in the direction of the disagreement: 55%
+
+mean subsequent revision by disagreement tercile:
+              n  mean_rev  mean_d  share_up
+tercile                                    
+model low   120    -2.450 -12.619     0.392
+middle      120    -1.200   0.548     0.425
+model high  120    -0.008  15.560     0.467
+
+national: corr(disagreement, revision) = -0.120  n=20
+ year   pred    aug  final     d    rev
+ 2006 159.65 154.56 150.44  5.10  -4.12
+ 2007 162.25 155.70 152.68  6.55  -3.02
+ 2008 163.77 157.36 155.52  6.41  -1.84
+ 2009 162.91 161.67 166.78  1.25   5.11
+ 2010 174.91 167.86 154.55  7.04 -13.31
+ 2011 159.18 155.86 148.48  3.31  -7.38
+ 2012 142.36 122.82 121.84 19.54  -0.97
+ 2013 151.71 154.39 158.19 -2.68   3.80
+ 2014 162.81 168.41 171.82 -5.60   3.40
+ 2015 167.99 169.64 169.56 -1.64  -0.07
+ 2016 168.65 176.17 176.53 -7.52   0.36
+ 2017 168.26 169.90 177.44 -1.64   7.54
+ 2018 177.21 180.32 178.03 -3.11  -2.30
+ 2019 173.04 170.56 168.88  2.48  -1.68
+ 2020 180.97 184.16 172.82 -3.19 -11.34
+ 2021 182.31 175.10 177.32  7.21   2.22
+ 2022 177.94 178.22 174.65 -0.28  -3.58
+ 2023 181.49 175.76 178.21  5.73   2.45
+ 2024 178.55 185.63 181.79 -7.07  -3.83
+ 2025 183.65 190.19 188.05 -6.54  -2.14
+
+hold Aug->Jan in the direction of the disagreement: n=16  mean +7.63%  se 6.47%  t +1.18  hit 69%
+  always long +9.73%/yr; always short -9.73%/yr; strategy +7.63%/yr
+  permutation null (10,000 shuffles of the position vector): median +3.10%, p = 0.240
+  wrote data\processed\gate2.png

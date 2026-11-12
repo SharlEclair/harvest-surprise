@@ -1,0 +1,2 @@
+2006: 12/15 composites, mean NDVI 0.7777  (44.7s)
+wrote spike\data\years\ndvi_2006.csv (12 rows) in 45s

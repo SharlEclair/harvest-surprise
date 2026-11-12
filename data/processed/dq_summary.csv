@@ -1,0 +1,10 @@
+table,rows,cols,dup_keys,null_keys,value_null,value_sentinel,value_nonpositive,date_min,date_max,date_missing,acres_null,acres_sentinel,acres_nonpositive,Value_null,Value_sentinel,Value_nonpositive,close_null,close_sentinel,close_nonpositive,asof_gdd_null,asof_gdd_sentinel,asof_gdd_nonpositive,asof_precip_null,asof_precip_sentinel,asof_precip_nonpositive,asof_tmax_jul_null,asof_tmax_jul_sentinel,asof_tmax_jul_nonpositive,elevation_ft_null,elevation_ft_sentinel,elevation_ft_nonpositive,storage_af_null,storage_af_sentinel,storage_af_nonpositive
+nass_yield,14121,10,352,0,0.0,0.0,12.0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nass_area_harvested,10199,10,3141,0,0.0,0.0,16.0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nass_area_planted,6718,10,1869,0,0.0,0.0,14.0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nass_condition,82414,10,0,0,0.0,0.0,7167.0,2000-05-21,2025-11-16,0.0,,,,,,,,,,,,,,,,,,,,,,,,
+nass_rice_county,996,5,11,0,,,,,,,0.0,0.0,0.0,,,,,,,,,,,,,,,,,,,,,
+wasde_corn,18388,16,2972,5240,,,,2010-04-09,2026-11-10,0.0,,,,0.0,0.0,360.0,,,,,,,,,,,,,,,,,,
+prices_daily,13471,9,0,0,,,,2009-01-02,2026-11-10,0.0,,,,,,,0.0,0.0,0.0,,,,,,,,,,,,,,,
+weather_state_year,468,17,0,0,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,
+cdec_reservoirs,131429,5,0,0,,,,1990-01-01,2025-12-31,0.0,,,,,,,,,,,,,,,,,,,1512.0,13304.0,13318.0,0.0,4892.0,4908.0

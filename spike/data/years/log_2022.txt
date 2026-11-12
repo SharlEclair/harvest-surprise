@@ -1,0 +1,2 @@
+2022: 12/15 composites, mean NDVI 0.8036  (41.6s)
+wrote spike\data\years\ndvi_2022.csv (12 rows) in 42s
